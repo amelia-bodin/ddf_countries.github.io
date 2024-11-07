@@ -114,13 +114,13 @@ exp_total,measure,SCB,Varuexport till bestämmelseland (totala värden) tkr,Meto
 country,entity_domain,,Country,,,,geo,,
 geo,entity_domain,,Geographic location,,,,,,
 year,time,,Year,,,,,,
-sweden,entity_set,,Sweden,,categorizations,,,"{palette: {Sweden: #ff6159, Other: #4f6366}}"
-eu,entity_set,,European Union,,categorizations,,,"{palette: {European Union: #ff6159, Not EU: #4f6366}}"
-briics,entity_set,,BRIICS,,categorizations,,,"{palette: {BRIICS: #ff6159, Not BRIICS: #4f6366}}"
-nato,entity_set,,NATO,,categorizations,,,"{palette: {NATO: #ff6159, Not NATO: #4f6366}}"
-oecd,entity_set,,OECD,,categorizations,,,"{palette: {OECD: #ff6159, Not OECD: #4f6366}}"
-g7,entity_set,,G7,,categorizations,,,"{palette: {G7: #ff6159, Not G7: #4f6366}}"
-continent,entity_set,,World Continents,,categorizations,,,"{palette: {Asia: #f03838, Africa: #4e7af0, Europe: #35d1d1, North America: #ef809a, South America: #5be56b, Oceania: #ebcc21, Africa & Asia: #813b46, Europe & Asia: #b05860,North America & South America: #596792,Asia & Oceania: #f8cb01,Other: #6cbc92}, selectable: false}"
+sweden,entity_set,,Sweden,,categorizations,,,"{palette: {Sweden: #ff6159, Other: #4f6366}}",
+eu,entity_set,,European Union,,categorizations,,,"{palette: {European Union: #ff6159, Not EU: #4f6366}}",
+briics,entity_set,,BRIICS,,categorizations,,,"{palette: {BRIICS: #ff6159, Not BRIICS: #4f6366}}",
+nato,entity_set,,NATO,,categorizations,,,"{palette: {NATO: #ff6159, Not NATO: #4f6366}}",
+oecd,entity_set,,OECD,,categorizations,,,"{palette: {OECD: #ff6159, Not OECD: #4f6366}}",
+g7,entity_set,,G7,,categorizations,,,"{palette: {G7: #ff6159, Not G7: #4f6366}}",
+continent,entity_set,,World Continents,,categorizations,,,"{palette: {Asia: #f03838, Africa: #4e7af0, Europe: #35d1d1, North America: #ef809a, South America: #5be56b, Oceania: #ebcc21, Africa & Asia: #813b46, Europe & Asia: #b05860,North America & South America: #596792,Asia & Oceania: #f8cb01,Other: #6cbc92}, selectable: false}",
 name,string,,Name,,,,,,
 unit,measure,,Unit,,,,,,
 description,string,,Description,,,,,,
