@@ -1,0 +1,7 @@
+﻿tag,name,parent
+environment,Environment,
+import,Import,Trade
+trade,Trade,
+export,Export,Trade
+emissions,Emissions,environment
+"workforce,""Work Force"","
