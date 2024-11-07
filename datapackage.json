@@ -1,15 +1,15 @@
 {
   "name": "DDF_TEST",
   "title": "DDF_TEST",
-  "description": ",
+  "description": "",
   "version": "0.0.1",
   "language": {
     "id": "en",
     "name": "English"
   },
   "translations": [],
-  "license": ",
-  "author": ",
+  "license": "",
+  "author": "",
   "resources": [
     {
       "path": "ddf--datapoints/ddf--datapoints--ae_cap_admin--by--country--year.csv",
