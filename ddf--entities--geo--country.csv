@@ -27,12 +27,12 @@ Benin,ben,Africa,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Bermuda,bmu,North America,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Bhutan,btn,Asia,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Bolivia,bol,South America,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
-Bonaire, Sint Eustatius and Saba,,North America,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
+Bonaire Sint Eustatius and Saba,,North America,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Bosnia and Herzegovina,bih,Europe,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Botswana,bwa,Africa,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Bouvet Island,bouisl,Other,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Brazil,bra,South America,Not EU,BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
-BRIICS economies - Brazil, Russia, India, Indonesia, China and South Africa,briics,Other,Not EU,BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
+BRIICS economies - (Brazil; Russia; India; Indonesia; China and South Africa),briics,Other,Not EU,BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 British Indian Ocean Territory,iot,Asia,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 British Virgin Islands,vgb,North America,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Brunei,brn,Asia,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
@@ -214,7 +214,7 @@ Saint-Barthélemy,stbar,North America,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7
 Saint-Pierre-et-Miquelon,spm,North America,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Samoa,wsm,Oceania,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 San Marino,smr,Europe,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
-Sankt Helena, Ascension and Tristan da Cunha,shn,Africa,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
+Sankt Helena; Ascension and Tristan da Cunha,shn,Africa,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Sao Tome and Principe,stp,Africa,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Saudi Arabia,sau,Asia,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
 Senegal,sen,Africa,Not EU,Not BRIICS,Not NATO,Not OECD,Not G7,Other,TRUE
