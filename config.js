@@ -9,7 +9,7 @@ var CONFIG = {
  },
  "locale": {
   "filePath": "assets/translation/",
-  "id": "en"
+  "id": "sv-SE"
  },
  "state": {
   "entities": {
