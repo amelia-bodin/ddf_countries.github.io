@@ -1,7 +1,8 @@
 ﻿tag,name,parent
-environment,Environment,
-import,Import,Trade
-trade,Trade,
-export,Export,Trade
-emissions,Emissions,environment
-workforce,Work Force,
+handel,Handel,
+utslapp,Utsläpp,miljo_sek
+ekonomi,Ekonomi,
+miljo_sek,Miljösektorn,
+transp,Transportsektorn,
+styrm,Ekonomiska styrmedel,
+invest,Investering,

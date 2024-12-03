@@ -1,6 +1,6 @@
 {
-  "name": "ddf_countries-main",
-  "title": "ddf_countries-main",
+  "name": "land_ddf",
+  "title": "land_ddf",
   "description": "",
   "version": "0.0.1",
   "language": {
@@ -1902,6 +1902,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--kem_tonne--by--country--year.csv",
+      "name": "kem_tonne--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kem_tonne"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--out_gdp_total--by--country--year.csv",
       "name": "out_gdp_total--by--country--year",
       "schema": {
@@ -2382,6 +2403,9 @@
           },
           {
             "name": "tags"
+          },
+          {
+            "name": "unit"
           },
           {
             "name": "domain"
@@ -3334,6 +3358,16 @@
           "country",
           "year"
         ],
+        "value": "kem_tonne",
+        "resources": [
+          "kem_tonne--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
         "value": "out_gdp_total",
         "resources": [
           "out_gdp_total--by--country--year"
@@ -4454,6 +4488,16 @@
           "geog",
           "year"
         ],
+        "value": "kem_tonne",
+        "resources": [
+          "kem_tonne--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "out_gdp_total",
         "resources": [
           "out_gdp_total--by--country--year"
@@ -4724,60 +4768,6 @@
         "resources": [
           "tag-2"
         ]
-      },
-      {
-        "primaryKey": [
-          "year"
-        ],
-        "value": "dev_inv_cap",
-        "resources": [
-          "dev_inv_cap--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "year"
-        ],
-        "value": "env_tax_gdp",
-        "resources": [
-          "env_tax_gdp--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "year"
-        ],
-        "value": "env_tax_total",
-        "resources": [
-          "env_tax_total--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "year"
-        ],
-        "value": "exp_total",
-        "resources": [
-          "exp_total--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "year"
-        ],
-        "value": "imp_total",
-        "resources": [
-          "imp_total--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "year"
-        ],
-        "value": "total_ffuel_tax",
-        "resources": [
-          "total_ffuel_tax--by--country--year"
-        ]
       }
     ],
     "concepts": [
@@ -4822,6 +4812,15 @@
           "concept"
         ],
         "value": "tags",
+        "resources": [
+          "ddf--concepts-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "unit",
         "resources": [
           "ddf--concepts-2"
         ]
