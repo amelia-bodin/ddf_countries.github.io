@@ -184,10 +184,10 @@ prk,TRUE,North Korea
 mkd,TRUE,North Macedonia
 mnp,TRUE,Northern Mariana Islands
 nor,TRUE,Norway
-oecd_euro,TRUE,OECD - Europe
+oecd_eu,TRUE,OECD - Europe
 oecd_tot,TRUE,OECD - Total
 oecd_am,TRUE,OECD America
-oecd_ao,TRUE,OECD Asia Oceania
+oecd_ac,TRUE,OECD Asia Oceania
 omn,TRUE,Oman
 pak,TRUE,Pakistan
 plw,TRUE,Palau
@@ -271,9 +271,14 @@ vat,TRUE,Vatican City State
 ven,TRUE,Venezuela
 vnm,TRUE,Viet Nam
 wlf,TRUE,Wallis and Futuna
-wbgs,TRUE,West Bank/Gaza Strip
+wbg,TRUE,West Bank/Gaza Strip
 esh,TRUE,Western Sahara
 world,TRUE,World
 yem,TRUE,Yemen
 zmb,TRUE,Zambia
 zwe,TRUE,Zimbabwe
+row_asia,TRUE,RoW Asia-Pacific Region
+row_africa,TRUE,RoW Africa
+row_europe,TRUE,RoW Europé
+row_america,TRUE,RoW America
+row_me,TRUE,RoW Middle East
