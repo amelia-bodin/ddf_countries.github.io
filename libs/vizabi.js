@@ -17788,10 +17788,10 @@ var About = _dialog2.default.extend("about", {
     var updated = new Date(parseInt(_globals2.default.build));
 
     this.element = d3.select(this.element);
-    this.element.select(".vzb-about-text0").html("This chart is made with Vizabi,");
-    this.element.select(".vzb-about-text1").html("a project by <a href='http://gapminder.org' target='_blank'>Gapminder Foundation</a>");
+    this.element.select(".vzb-about-text0").html("This chart is powered by Vizabi,");
+    this.element.select(".vzb-about-text1").html("(<a href='http://gapminder.org' target='_blank'>Gapminder Foundation</a>)");
    // this.element.select(".vzb-about-report").html("Edited by Amelia Bodin, <a href='https://www.statistikkonsulterna.se/'> Statistikkonsulterna Väst AB</a>");
-    this.element.select(".vzb-about-version").html("Edited by Amelia Bodin, ");
+    this.element.select(".vzb-about-version").html("Implementation by");
     this.element.select(".vzb-about-updated").html("<a href='https://www.statistikkonsulterna.se/' target='_blank'> Statistikkonsulterna Väst AB</a>");
     //this.element.select(".vzb-about-report").html("<a href='https://getsatisfaction.com/gapminder/' target='_blank'>Report a problem</a>");
    // this.element.select(".vzb-about-credits").html("<a href='https://github.com/Gapminder/vizabi/graphs/contributors' target='_blank'>Contributors</a>");
@@ -17808,8 +17808,9 @@ var About = _dialog2.default.extend("about", {
     var toolsEl = this.element.select(".vzb-about-tool");
     toolsEl.html("");
     toolsEl.append("p").text("Tool: " + toolData.name);
-    toolsEl.append("p").text("-version: " + toolData.version);
-    toolsEl.append("p").text("-build: " + toolData.build);
+    toolsEl.append("p").text("-version: " + "Gapminder Tools Offline v.5.0.0");
+    toolsEl.append("p").text("-build: " + "2025-01-09 at 11:30");
+
 
     var readerData = data.instances.map(function (dataInstance) {
       var data = {};
