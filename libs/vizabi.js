@@ -17792,7 +17792,7 @@ var About = _dialog2.default.extend("about", {
     this.element.select(".vzb-about-text1").html("a project by <a href='http://gapminder.org' target='_blank'>Gapminder Foundation</a>");
    // this.element.select(".vzb-about-report").html("Edited by Amelia Bodin, <a href='https://www.statistikkonsulterna.se/'> Statistikkonsulterna Väst AB</a>");
     this.element.select(".vzb-about-version").html("Edited by Amelia Bodin, ");
-    this.element.select(".vzb-about-updated").html("<a href='https://www.statistikkonsulterna.se/'> Statistikkonsulterna Väst AB</a>");
+    this.element.select(".vzb-about-updated").html("<a href='https://www.statistikkonsulterna.se/' target='_blank'> Statistikkonsulterna Väst AB</a>");
     //this.element.select(".vzb-about-report").html("<a href='https://getsatisfaction.com/gapminder/' target='_blank'>Report a problem</a>");
    // this.element.select(".vzb-about-credits").html("<a href='https://github.com/Gapminder/vizabi/graphs/contributors' target='_blank'>Contributors</a>");
 
