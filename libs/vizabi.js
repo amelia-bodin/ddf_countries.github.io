@@ -13283,7 +13283,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var defaultPalettes = {
   "_continuous": {
-    "_default": "#ffb600",
+    "_default": "#4F6366",
     "0": "#8c30e8", //"hsl(270, 80%, 55%)",
     "25": "#30a3e8", //"hsl(202.5, 80%, 55%)",
     "50": "#30e85e", //"hsl(135, 80%, 55%)",
@@ -13291,7 +13291,7 @@ var defaultPalettes = {
     "100": "#e83030" //"hsl(0, 80%, 55%)"
   },
   "_discrete": {
-    "_default": "#ffb600",
+    "_default": "#4F6366",
     "0": "#4cd843",
     "1": "#e83739",
     "2": "#ff7f00",
@@ -13306,7 +13306,7 @@ var defaultPalettes = {
     "11": "#7fb5ed"
   },
   "_default": {
-    "_default": "#ffb600"
+    "_default": "#4F6366"
   }
 };
 
