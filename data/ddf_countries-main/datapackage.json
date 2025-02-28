@@ -1,6 +1,6 @@
 {
-  "name": "bransch_ddf",
-  "title": "bransch_ddf",
+  "name": "land_ddf",
+  "title": "land_ddf",
   "description": "",
   "version": "0.0.1",
   "language": {
@@ -12,1671 +12,1902 @@
   "author": "",
   "resources": [
     {
-      "path": "ddf--datapoints/ddf--datapoints--and_d_fast--by--sni_id--year.csv",
-      "name": "and_d_fast--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_admin--by--country--year.csv",
+      "name": "ae_cap_admin--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "and_d_fast"
+            "name": "ae_cap_admin"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--and_d_lop--by--sni_id--year.csv",
-      "name": "and_d_lop--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_agri--by--country--year.csv",
+      "name": "ae_cap_agri--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "and_d_lop"
+            "name": "ae_cap_agri"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--and_forb_inv--by--sni_id--year.csv",
-      "name": "and_forb_inv--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_arts--by--country--year.csv",
+      "name": "ae_cap_arts--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "and_forb_inv"
+            "name": "ae_cap_arts"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--and_milj_ex--by--sni_id--year.csv",
-      "name": "and_milj_ex--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_const--by--country--year.csv",
+      "name": "ae_cap_const--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "and_milj_ex"
+            "name": "ae_cap_const"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--and_milj_tot--by--sni_id--year.csv",
-      "name": "and_milj_tot--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_def--by--country--year.csv",
+      "name": "ae_cap_def--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "and_milj_tot"
+            "name": "ae_cap_def"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--and_reg_foradl--by--sni_id--year.csv",
-      "name": "and_reg_foradl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_edu--by--country--year.csv",
+      "name": "ae_cap_edu--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "and_reg_foradl"
+            "name": "ae_cap_edu"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--and_syssel--by--sni_id--year.csv",
-      "name": "and_syssel--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_elec--by--country--year.csv",
+      "name": "ae_cap_elec--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "and_syssel"
+            "name": "ae_cap_elec"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--anim_farl--by--sni_id--year.csv",
-      "name": "anim_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_exorg--by--country--year.csv",
+      "name": "ae_cap_exorg--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "anim_farl"
+            "name": "ae_cap_exorg"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--anim_icke_farl--by--sni_id--year.csv",
-      "name": "anim_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_finance--by--country--year.csv",
+      "name": "ae_cap_finance--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "anim_icke_farl"
+            "name": "ae_cap_finance"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--annat_farl--by--sni_id--year.csv",
-      "name": "annat_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_food--by--country--year.csv",
+      "name": "ae_cap_food--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "annat_farl"
+            "name": "ae_cap_food"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--annat_icke_farl--by--sni_id--year.csv",
-      "name": "annat_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_health--by--country--year.csv",
+      "name": "ae_cap_health--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "annat_icke_farl"
+            "name": "ae_cap_health"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_ans_kon--by--sni_id--year.csv",
-      "name": "ant_ans_kon--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_house--by--country--year.csv",
+      "name": "ae_cap_house--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_ans_kon"
+            "name": "ae_cap_house"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_forv_kvn_reg--by--sni_id--year.csv",
-      "name": "ant_forv_kvn_reg--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_info--by--country--year.csv",
+      "name": "ae_cap_info--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_forv_kvn_reg"
+            "name": "ae_cap_info"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_forv_man_reg--by--sni_id--year.csv",
-      "name": "ant_forv_man_reg--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_manu--by--country--year.csv",
+      "name": "ae_cap_manu--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_forv_man_reg"
+            "name": "ae_cap_manu"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_forv_tot_reg--by--sni_id--year.csv",
-      "name": "ant_forv_tot_reg--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_mine--by--country--year.csv",
+      "name": "ae_cap_mine--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_forv_tot_reg"
+            "name": "ae_cap_mine"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_en--by--sni_id--year.csv",
-      "name": "ant_for_en--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_other--by--country--year.csv",
+      "name": "ae_cap_other--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_for_en"
+            "name": "ae_cap_other"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_fem--by--sni_id--year.csv",
-      "name": "ant_for_fem--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_prof--by--country--year.csv",
+      "name": "ae_cap_prof--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_for_fem"
+            "name": "ae_cap_prof"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_femtio--by--sni_id--year.csv",
-      "name": "ant_for_femtio--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_real--by--country--year.csv",
+      "name": "ae_cap_real--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_for_femtio"
+            "name": "ae_cap_real"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_fem_hundra--by--sni_id--year.csv",
-      "name": "ant_for_fem_hundra--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_retail--by--country--year.csv",
+      "name": "ae_cap_retail--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_for_fem_hundra"
+            "name": "ae_cap_retail"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_hundra--by--sni_id--year.csv",
-      "name": "ant_for_hundra--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_total--by--country--year.csv",
+      "name": "ae_cap_total--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_for_hundra"
+            "name": "ae_cap_total"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_noll--by--sni_id--year.csv",
-      "name": "ant_for_noll--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_transp--by--country--year.csv",
+      "name": "ae_cap_transp--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_for_noll"
+            "name": "ae_cap_transp"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_tio--by--sni_id--year.csv",
-      "name": "ant_for_tio--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_cap_water--by--country--year.csv",
+      "name": "ae_cap_water--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_for_tio"
+            "name": "ae_cap_water"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_tjugo--by--sni_id--year.csv",
-      "name": "ant_for_tjugo--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_admin--by--country--year.csv",
+      "name": "ae_ton_admin--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_for_tjugo"
+            "name": "ae_ton_admin"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_tot--by--sni_id--year.csv",
-      "name": "ant_for_tot--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_agri--by--country--year.csv",
+      "name": "ae_ton_agri--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_for_tot"
+            "name": "ae_ton_agri"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_tva_hundra--by--sni_id--year.csv",
-      "name": "ant_for_tva_hundra--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_air--by--country--year.csv",
+      "name": "ae_ton_air--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_for_tva_hundra"
+            "name": "ae_ton_air"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_kon--by--sni_id--year.csv",
-      "name": "ant_kon--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_arts--by--country--year.csv",
+      "name": "ae_ton_arts--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_kon"
+            "name": "ae_ton_arts"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_ny--by--sni_id--year.csv",
-      "name": "ant_ny--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_const--by--country--year.csv",
+      "name": "ae_ton_const--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_ny"
+            "name": "ae_ton_const"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_syssel--by--sni_id--year.csv",
-      "name": "ant_syssel--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_def--by--country--year.csv",
+      "name": "ae_ton_def--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_syssel"
+            "name": "ae_ton_def"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_syss_miljo--by--sni_id--year.csv",
-      "name": "ant_syss_miljo--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_edu--by--country--year.csv",
+      "name": "ae_ton_edu--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ant_syss_miljo"
+            "name": "ae_ton_edu"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--arb_tim--by--sni_id--year.csv",
-      "name": "arb_tim--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_elec--by--country--year.csv",
+      "name": "ae_ton_elec--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "arb_tim"
+            "name": "ae_ton_elec"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--avlopp_farl--by--sni_id--year.csv",
-      "name": "avlopp_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_exorg--by--country--year.csv",
+      "name": "ae_ton_exorg--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "avlopp_farl"
+            "name": "ae_ton_exorg"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--avlopp_icke_farl--by--sni_id--year.csv",
-      "name": "avlopp_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_finance--by--country--year.csv",
+      "name": "ae_ton_finance--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "avlopp_icke_farl"
+            "name": "ae_ton_finance"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--batt_farl--by--sni_id--year.csv",
-      "name": "batt_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_food--by--country--year.csv",
+      "name": "ae_ton_food--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "batt_farl"
+            "name": "ae_ton_food"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--batt_icke_farl--by--sni_id--year.csv",
-      "name": "batt_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_health--by--country--year.csv",
+      "name": "ae_ton_health--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "batt_icke_farl"
+            "name": "ae_ton_health"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--bland_farl--by--sni_id--year.csv",
-      "name": "bland_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_house--by--country--year.csv",
+      "name": "ae_ton_house--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "bland_farl"
+            "name": "ae_ton_house"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--bland_icke_farl--by--sni_id--year.csv",
-      "name": "bland_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_house_emp--by--country--year.csv",
+      "name": "ae_ton_house_emp--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "bland_icke_farl"
+            "name": "ae_ton_house_emp"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--bland_met_farl--by--sni_id--year.csv",
-      "name": "bland_met_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_info--by--country--year.csv",
+      "name": "ae_ton_info--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "bland_met_farl"
+            "name": "ae_ton_info"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--bland_met_icke_farl--by--sni_id--year.csv",
-      "name": "bland_met_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_isic--by--country--year.csv",
+      "name": "ae_ton_isic--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "bland_met_icke_farl"
+            "name": "ae_ton_isic"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--bnp_prod_fast--by--sni_id--year.csv",
-      "name": "bnp_prod_fast--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_isic_nace--by--country--year.csv",
+      "name": "ae_ton_isic_nace--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "bnp_prod_fast"
+            "name": "ae_ton_isic_nace"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--bnp_prod_lop--by--sni_id--year.csv",
-      "name": "bnp_prod_lop--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_land--by--country--year.csv",
+      "name": "ae_ton_land--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "bnp_prod_lop"
+            "name": "ae_ton_land"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--brp--by--sni_id--year.csv",
-      "name": "brp--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_manu--by--country--year.csv",
+      "name": "ae_ton_manu--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "brp"
+            "name": "ae_ton_manu"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--co_skatt--by--sni_id--year.csv",
-      "name": "co_skatt--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_mine--by--country--year.csv",
+      "name": "ae_ton_mine--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "co_skatt"
+            "name": "ae_ton_mine"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--export--by--sni_id--year.csv",
-      "name": "export--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_other--by--country--year.csv",
+      "name": "ae_ton_other--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "export"
+            "name": "ae_ton_other"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--fastfaktor--by--sni_id--year.csv",
-      "name": "fastfaktor--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_prof--by--country--year.csv",
+      "name": "ae_ton_prof--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "fastfaktor"
+            "name": "ae_ton_prof"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--foradl--by--sni_id--year.csv",
-      "name": "foradl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_real--by--country--year.csv",
+      "name": "ae_ton_real--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "foradl"
+            "name": "ae_ton_real"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--foradl_bio--by--sni_id--year.csv",
-      "name": "foradl_bio--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_retail--by--country--year.csv",
+      "name": "ae_ton_retail--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "foradl_bio"
+            "name": "ae_ton_retail"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--forbrann_farl--by--sni_id--year.csv",
-      "name": "forbrann_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_serv--by--country--year.csv",
+      "name": "ae_ton_serv--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "forbrann_farl"
+            "name": "ae_ton_serv"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--forbrann_icke_farl--by--sni_id--year.csv",
-      "name": "forbrann_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_total--by--country--year.csv",
+      "name": "ae_ton_total--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "forbrann_icke_farl"
+            "name": "ae_ton_total"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--forbr_bio--by--sni_id--year.csv",
-      "name": "forbr_bio--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_transp--by--country--year.csv",
+      "name": "ae_ton_transp--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "forbr_bio"
+            "name": "ae_ton_transp"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--forb_fos--by--sni_id--year.csv",
-      "name": "forb_fos--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_water--by--country--year.csv",
+      "name": "ae_ton_water--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "forb_fos"
+            "name": "ae_ton_water"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--fordon_farl--by--sni_id--year.csv",
-      "name": "fordon_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ae_ton_wat_trans--by--country--year.csv",
+      "name": "ae_ton_wat_trans--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "fordon_farl"
+            "name": "ae_ton_wat_trans"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--fordon_icke_farl--by--sni_id--year.csv",
-      "name": "fordon_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--chain_out_air--by--country--year.csv",
+      "name": "chain_out_air--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "fordon_icke_farl"
+            "name": "chain_out_air"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--foreb_inv--by--sni_id--year.csv",
-      "name": "foreb_inv--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--chain_out_land--by--country--year.csv",
+      "name": "chain_out_land--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "foreb_inv"
+            "name": "chain_out_land"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--forv_kvn--by--sni_id--year.csv",
-      "name": "forv_kvn--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--chain_out_transp--by--country--year.csv",
+      "name": "chain_out_transp--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "forv_kvn"
+            "name": "chain_out_transp"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--forv_kvn_bio--by--sni_id--year.csv",
-      "name": "forv_kvn_bio--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--chain_out_water--by--country--year.csv",
+      "name": "chain_out_water--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "forv_kvn_bio"
+            "name": "chain_out_water"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--forv_man--by--sni_id--year.csv",
-      "name": "forv_man--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--chain_value_air--by--country--year.csv",
+      "name": "chain_value_air--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "forv_man"
+            "name": "chain_value_air"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--forv_man_bio--by--sni_id--year.csv",
-      "name": "forv_man_bio--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--chain_value_land--by--country--year.csv",
+      "name": "chain_value_land--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "forv_man_bio"
+            "name": "chain_value_land"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--forv_to--by--sni_id--year.csv",
-      "name": "forv_to--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--chain_value_transp--by--country--year.csv",
+      "name": "chain_value_transp--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "forv_to"
+            "name": "chain_value_transp"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--forv_tot_bio--by--sni_id--year.csv",
-      "name": "forv_tot_bio--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--chain_value_water--by--country--year.csv",
+      "name": "chain_value_water--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "forv_tot_bio"
+            "name": "chain_value_water"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--fv--by--sni_id--year.csv",
-      "name": "fv--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--dev_inv_cap--by--country--year.csv",
+      "name": "dev_inv_cap--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "fv"
+            "name": "dev_inv_cap"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ghg_kilo--by--sni_id--year.csv",
-      "name": "ghg_kilo--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--emp_fte_air--by--country--year.csv",
+      "name": "emp_fte_air--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "ghg_kilo"
+            "name": "emp_fte_air"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--glas_farl--by--sni_id--year.csv",
-      "name": "glas_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--emp_fte_land--by--country--year.csv",
+      "name": "emp_fte_land--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "glas_farl"
+            "name": "emp_fte_land"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--glas_icke_farl--by--sni_id--year.csv",
-      "name": "glas_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--emp_fte_water--by--country--year.csv",
+      "name": "emp_fte_water--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "glas_icke_farl"
+            "name": "emp_fte_water"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--godsel_farl--by--sni_id--year.csv",
-      "name": "godsel_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_admin--by--country--year.csv",
+      "name": "ent_nr_admin--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "godsel_farl"
+            "name": "ent_nr_admin"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--godsel_icke_farl--by--sni_id--year.csv",
-      "name": "godsel_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_arts--by--country--year.csv",
+      "name": "ent_nr_arts--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "godsel_icke_farl"
+            "name": "ent_nr_arts"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--gummi_farl--by--sni_id--year.csv",
-      "name": "gummi_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_const--by--country--year.csv",
+      "name": "ent_nr_const--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "gummi_farl"
+            "name": "ent_nr_const"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--gummi_icke_farl--by--sni_id--year.csv",
-      "name": "gummi_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_edu--by--country--year.csv",
+      "name": "ent_nr_edu--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "gummi_icke_farl"
+            "name": "ent_nr_edu"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--hushall_farl--by--sni_id--year.csv",
-      "name": "hushall_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_elec--by--country--year.csv",
+      "name": "ent_nr_elec--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "hushall_farl"
+            "name": "ent_nr_elec"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--hushall_icke_farl--by--sni_id--year.csv",
-      "name": "hushall_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_finance--by--country--year.csv",
+      "name": "ent_nr_finance--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "hushall_icke_farl"
+            "name": "ent_nr_finance"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--int_kem--by--sni_id--year.csv",
-      "name": "int_kem--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_food--by--country--year.csv",
+      "name": "ent_nr_food--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "int_kem"
+            "name": "ent_nr_food"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--inv_miljo--by--sni_id--year.csv",
-      "name": "inv_miljo--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_health--by--country--year.csv",
+      "name": "ent_nr_health--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "inv_miljo"
+            "name": "ent_nr_health"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--jord_farl--by--sni_id--year.csv",
-      "name": "jord_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_info--by--country--year.csv",
+      "name": "ent_nr_info--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "jord_farl"
+            "name": "ent_nr_info"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--jord_icke_farl--by--sni_id--year.csv",
-      "name": "jord_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_manu--by--country--year.csv",
+      "name": "ent_nr_manu--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "jord_icke_farl"
+            "name": "ent_nr_manu"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--kass_farl--by--sni_id--year.csv",
-      "name": "kass_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_mine--by--country--year.csv",
+      "name": "ent_nr_mine--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "kass_farl"
+            "name": "ent_nr_mine"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--kass_icke_farl--by--sni_id--year.csv",
-      "name": "kass_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_prof--by--country--year.csv",
+      "name": "ent_nr_prof--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "kass_icke_farl"
+            "name": "ent_nr_prof"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--kem_anv--by--sni_id--year.csv",
-      "name": "kem_anv--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_real--by--country--year.csv",
+      "name": "ent_nr_real--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "kem_anv"
+            "name": "ent_nr_real"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--kem_anv_tonne_msek--by--sni_id--year.csv",
-      "name": "kem_anv_tonne_msek--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_retail--by--country--year.csv",
+      "name": "ent_nr_retail--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "kem_anv_tonne_msek"
+            "name": "ent_nr_retail"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--kem_farl--by--sni_id--year.csv",
-      "name": "kem_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_transp--by--country--year.csv",
+      "name": "ent_nr_transp--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "kem_farl"
+            "name": "ent_nr_transp"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--kem_icke_farl--by--sni_id--year.csv",
-      "name": "kem_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--ent_nr_water--by--country--year.csv",
+      "name": "ent_nr_water--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "kem_icke_farl"
+            "name": "ent_nr_water"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--kem_tonne--by--sni_id--year.csv",
-      "name": "kem_tonne--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--env_rnd--by--country--year.csv",
+      "name": "env_rnd--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "env_rnd"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--env_sub_corp--by--country--year.csv",
+      "name": "env_sub_corp--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "env_sub_corp"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--env_sub_total--by--country--year.csv",
+      "name": "env_sub_total--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "env_sub_total"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--env_tax_gdp--by--country--year.csv",
+      "name": "env_tax_gdp--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "env_tax_gdp"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--env_tax_total--by--country--year.csv",
+      "name": "env_tax_total--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "env_tax_total"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--exp_total--by--country--year.csv",
+      "name": "exp_total--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "exp_total"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--fte_total--by--country--year.csv",
+      "name": "fte_total--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "fte_total"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ggas_cap_air--by--country--year.csv",
+      "name": "ggas_cap_air--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ggas_cap_air"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ggas_cap_land--by--country--year.csv",
+      "name": "ggas_cap_land--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ggas_cap_land"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ggas_cap_water--by--country--year.csv",
+      "name": "ggas_cap_water--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ggas_cap_water"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--imp_total--by--country--year.csv",
+      "name": "imp_total--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "imp_total"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--kem_tonne--by--country--year.csv",
+      "name": "kem_tonne--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
           },
           {
             "name": "year"
@@ -1686,1288 +1917,469 @@
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--koldi_skatt--by--sni_id--year.csv",
-      "name": "koldi_skatt--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--out_gdp_total--by--country--year.csv",
+      "name": "out_gdp_total--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "koldi_skatt"
+            "name": "out_gdp_total"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--losn_farl--by--sni_id--year.csv",
-      "name": "losn_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--out_mil_agri--by--country--year.csv",
+      "name": "out_mil_agri--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "losn_farl"
+            "name": "out_mil_agri"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--losn_icke_farl--by--sni_id--year.csv",
-      "name": "losn_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--out_mil_const--by--country--year.csv",
+      "name": "out_mil_const--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "losn_icke_farl"
+            "name": "out_mil_const"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--medel_syss--by--sni_id--year.csv",
-      "name": "medel_syss--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--out_mil_elec--by--country--year.csv",
+      "name": "out_mil_elec--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "medel_syss"
+            "name": "out_mil_elec"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--met_avf_farl--by--sni_id--year.csv",
-      "name": "met_avf_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--out_mil_mine--by--country--year.csv",
+      "name": "out_mil_mine--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "met_avf_farl"
+            "name": "out_mil_mine"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--met_avf_icke_farl--by--sni_id--year.csv",
-      "name": "met_avf_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--out_mil_serv--by--country--year.csv",
+      "name": "out_mil_serv--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "met_avf_icke_farl"
+            "name": "out_mil_serv"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--met_icke_fer_farl--by--sni_id--year.csv",
-      "name": "met_icke_fer_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--out_mil_total--by--country--year.csv",
+      "name": "out_mil_total--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "met_icke_fer_farl"
+            "name": "out_mil_total"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--met_icke_fer_icke_farl--by--sni_id--year.csv",
-      "name": "met_icke_fer_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--total_ffuel_tax--by--country--year.csv",
+      "name": "total_ffuel_tax--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "met_icke_fer_icke_farl"
+            "name": "total_ffuel_tax"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--min_avf_farl--by--sni_id--year.csv",
-      "name": "min_avf_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--total_fte_agri--by--country--year.csv",
+      "name": "total_fte_agri--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "min_avf_farl"
+            "name": "total_fte_agri"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--min_avf_icke_farl--by--sni_id--year.csv",
-      "name": "min_avf_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--total_fte_const--by--country--year.csv",
+      "name": "total_fte_const--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "min_avf_icke_farl"
+            "name": "total_fte_const"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--min_farl--by--sni_id--year.csv",
-      "name": "min_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--total_fte_elec--by--country--year.csv",
+      "name": "total_fte_elec--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "min_farl"
+            "name": "total_fte_elec"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--min_icke_farl--by--sni_id--year.csv",
-      "name": "min_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--total_fte_mine--by--country--year.csv",
+      "name": "total_fte_mine--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "min_icke_farl"
+            "name": "total_fte_mine"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--mudder_farl--by--sni_id--year.csv",
-      "name": "mudder_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--total_fte_serv--by--country--year.csv",
+      "name": "total_fte_serv--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "mudder_farl"
+            "name": "total_fte_serv"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--mudder_icke_farl--by--sni_id--year.csv",
-      "name": "mudder_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--total_fte_total--by--country--year.csv",
+      "name": "total_fte_total--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "mudder_icke_farl"
+            "name": "total_fte_total"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--netto_bio--by--sni_id--year.csv",
-      "name": "netto_bio--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--val_chain_total--by--country--year.csv",
+      "name": "val_chain_total--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "netto_bio"
+            "name": "val_chain_total"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--olje_farl--by--sni_id--year.csv",
-      "name": "olje_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--val_gdp_total--by--country--year.csv",
+      "name": "val_gdp_total--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "olje_farl"
+            "name": "val_gdp_total"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--olje_icke_farl--by--sni_id--year.csv",
-      "name": "olje_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--val_mil_agri--by--country--year.csv",
+      "name": "val_mil_agri--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "olje_icke_farl"
+            "name": "val_mil_agri"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--papp_farl--by--sni_id--year.csv",
-      "name": "papp_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--val_mil_const--by--country--year.csv",
+      "name": "val_mil_const--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "papp_farl"
+            "name": "val_mil_const"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--papp_icke_farl--by--sni_id--year.csv",
-      "name": "papp_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--val_mil_elec--by--country--year.csv",
+      "name": "val_mil_elec--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "papp_icke_farl"
+            "name": "val_mil_elec"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--pbc_icke_farl--by--sni_id--year.csv",
-      "name": "pbc_icke_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--val_mil_mine--by--country--year.csv",
+      "name": "val_mil_mine--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "pbc_icke_farl"
+            "name": "val_mil_mine"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--pcb_farl--by--sni_id--year.csv",
-      "name": "pcb_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--val_mil_serv--by--country--year.csv",
+      "name": "val_mil_serv--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "pcb_farl"
+            "name": "val_mil_serv"
           }
         ],
         "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--plast_farl--by--sni_id--year.csv",
-      "name": "plast_farl--by--sni_id--year",
+      "path": "ddf--datapoints/ddf--datapoints--val_mil_total--by--country--year.csv",
+      "name": "val_mil_total--by--country--year",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
             "name": "year"
           },
           {
-            "name": "plast_farl"
+            "name": "val_mil_total"
           }
         ],
         "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--plast_icke_farl--by--sni_id--year.csv",
-      "name": "plast_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "plast_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--prod--by--sni_id--year.csv",
-      "name": "prod--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "prod"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--prod_v--by--sni_id--year.csv",
-      "name": "prod_v--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "prod_v"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--reg_foradl--by--sni_id--year.csv",
-      "name": "reg_foradl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "reg_foradl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--reg_foradl_ber_lop--by--sni_id--year.csv",
-      "name": "reg_foradl_ber_lop--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "reg_foradl_ber_lop"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--res_rakn--by--sni_id--year.csv",
-      "name": "res_rakn--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "res_rakn"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--sjukv_avf_farl--by--sni_id--year.csv",
-      "name": "sjukv_avf_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sjukv_avf_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--sjukv_avf_icke_farl--by--sni_id--year.csv",
-      "name": "sjukv_avf_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sjukv_avf_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--slam_farl--by--sni_id--year.csv",
-      "name": "slam_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "slam_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--slam_icke_farl--by--sni_id--year.csv",
-      "name": "slam_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "slam_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--slut_eft--by--sni_id--year.csv",
-      "name": "slut_eft--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "slut_eft"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--sort_farl--by--sni_id--year.csv",
-      "name": "sort_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sort_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--sort_icke_farl--by--sni_id--year.csv",
-      "name": "sort_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sort_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--surt_farl--by--sni_id--year.csv",
-      "name": "surt_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "surt_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--surt_icke_farl--by--sni_id--year.csv",
-      "name": "surt_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "surt_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--syssels--by--sni_id--year.csv",
-      "name": "syssels--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "syssels"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--textil_farl--by--sni_id--year.csv",
-      "name": "textil_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "textil_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--textil_icke_farl--by--sni_id--year.csv",
-      "name": "textil_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "textil_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_farl--by--sni_id--year.csv",
-      "name": "tot_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_icke_farl--by--sni_id--year.csv",
-      "name": "tot_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_netto--by--sni_id--year.csv",
-      "name": "tot_netto--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_netto"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_syssels--by--sni_id--year.csv",
-      "name": "tot_syssels--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_syssels"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_syssel_ant--by--sni_id--year.csv",
-      "name": "tot_syssel_ant--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_syssel_ant"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_syssel_ex--by--sni_id--year.csv",
-      "name": "tot_syssel_ex--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_syssel_ex"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tra_farl--by--sni_id--year.csv",
-      "name": "tra_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tra_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tra_icke_farl--by--sni_id--year.csv",
-      "name": "tra_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tra_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--utsl_ghg--by--sni_id--year.csv",
-      "name": "utsl_ghg--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utsl_ghg"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--utsl_kilo_tonne--by--sni_id--year.csv",
-      "name": "utsl_kilo_tonne--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utsl_kilo_tonne"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--utsl_koldi--by--sni_id--year.csv",
-      "name": "utsl_koldi--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utsl_koldi"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--utsl_p_prod--by--sni_id--year.csv",
-      "name": "utsl_p_prod--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utsl_p_prod"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--utsl_skatt--by--sni_id--year.csv",
-      "name": "utsl_skatt--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utsl_skatt"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vanlig_farl--by--sni_id--year.csv",
-      "name": "vanlig_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vanlig_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vanlig_icke_farl--by--sni_id--year.csv",
-      "name": "vanlig_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vanlig_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--varuexp--by--sni_id--year.csv",
-      "name": "varuexp--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "varuexp"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--varuimp--by--sni_id--year.csv",
-      "name": "varuimp--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "varuimp"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vaxthusg--by--sni_id--year.csv",
-      "name": "vaxthusg--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vaxthusg"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vaxt_int--by--sni_id--year.csv",
-      "name": "vaxt_int--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vaxt_int"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vege_farl--by--sni_id--year.csv",
-      "name": "vege_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vege_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vege_icke_farl--by--sni_id--year.csv",
-      "name": "vege_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vege_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
+          "country",
           "year"
         ]
       }
@@ -2990,10 +2402,10 @@
             "name": "description"
           },
           {
-            "name": "unit"
+            "name": "tags"
           },
           {
-            "name": "tags"
+            "name": "unit"
           },
           {
             "name": "domain"
@@ -3003,21 +2415,21 @@
       }
     },
     {
-      "path": "ddf--entities--geog--sni_id.csv",
-      "name": "geog--sni_id-2",
+      "path": "ddf--entities--geog--country.csv",
+      "name": "geog--country-2",
       "schema": {
         "fields": [
           {
-            "name": "sni_id"
+            "name": "country"
           },
           {
-            "name": "is--sni_id"
+            "name": "is--country"
           },
           {
             "name": "name"
           }
         ],
-        "primaryKey": "sni_id"
+        "primaryKey": "country"
       }
     },
     {
@@ -3043,12 +2455,1252 @@
     "datapoints": [
       {
         "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_admin",
+        "resources": [
+          "ae_cap_admin--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_agri",
+        "resources": [
+          "ae_cap_agri--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_arts",
+        "resources": [
+          "ae_cap_arts--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_const",
+        "resources": [
+          "ae_cap_const--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_def",
+        "resources": [
+          "ae_cap_def--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_edu",
+        "resources": [
+          "ae_cap_edu--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_elec",
+        "resources": [
+          "ae_cap_elec--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_exorg",
+        "resources": [
+          "ae_cap_exorg--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_finance",
+        "resources": [
+          "ae_cap_finance--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_food",
+        "resources": [
+          "ae_cap_food--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_health",
+        "resources": [
+          "ae_cap_health--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_house",
+        "resources": [
+          "ae_cap_house--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_info",
+        "resources": [
+          "ae_cap_info--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_manu",
+        "resources": [
+          "ae_cap_manu--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_mine",
+        "resources": [
+          "ae_cap_mine--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_other",
+        "resources": [
+          "ae_cap_other--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_prof",
+        "resources": [
+          "ae_cap_prof--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_real",
+        "resources": [
+          "ae_cap_real--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_retail",
+        "resources": [
+          "ae_cap_retail--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_total",
+        "resources": [
+          "ae_cap_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_transp",
+        "resources": [
+          "ae_cap_transp--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_cap_water",
+        "resources": [
+          "ae_cap_water--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_admin",
+        "resources": [
+          "ae_ton_admin--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_agri",
+        "resources": [
+          "ae_ton_agri--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_air",
+        "resources": [
+          "ae_ton_air--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_arts",
+        "resources": [
+          "ae_ton_arts--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_const",
+        "resources": [
+          "ae_ton_const--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_def",
+        "resources": [
+          "ae_ton_def--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_edu",
+        "resources": [
+          "ae_ton_edu--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_elec",
+        "resources": [
+          "ae_ton_elec--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_exorg",
+        "resources": [
+          "ae_ton_exorg--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_finance",
+        "resources": [
+          "ae_ton_finance--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_food",
+        "resources": [
+          "ae_ton_food--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_health",
+        "resources": [
+          "ae_ton_health--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_house",
+        "resources": [
+          "ae_ton_house--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_house_emp",
+        "resources": [
+          "ae_ton_house_emp--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_info",
+        "resources": [
+          "ae_ton_info--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_isic",
+        "resources": [
+          "ae_ton_isic--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_isic_nace",
+        "resources": [
+          "ae_ton_isic_nace--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_land",
+        "resources": [
+          "ae_ton_land--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_manu",
+        "resources": [
+          "ae_ton_manu--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_mine",
+        "resources": [
+          "ae_ton_mine--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_other",
+        "resources": [
+          "ae_ton_other--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_prof",
+        "resources": [
+          "ae_ton_prof--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_real",
+        "resources": [
+          "ae_ton_real--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_retail",
+        "resources": [
+          "ae_ton_retail--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_serv",
+        "resources": [
+          "ae_ton_serv--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_total",
+        "resources": [
+          "ae_ton_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_transp",
+        "resources": [
+          "ae_ton_transp--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_wat_trans",
+        "resources": [
+          "ae_ton_wat_trans--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ae_ton_water",
+        "resources": [
+          "ae_ton_water--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "chain_out_air",
+        "resources": [
+          "chain_out_air--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "chain_out_land",
+        "resources": [
+          "chain_out_land--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "chain_out_transp",
+        "resources": [
+          "chain_out_transp--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "chain_out_water",
+        "resources": [
+          "chain_out_water--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "chain_value_air",
+        "resources": [
+          "chain_value_air--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "chain_value_land",
+        "resources": [
+          "chain_value_land--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "chain_value_transp",
+        "resources": [
+          "chain_value_transp--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "chain_value_water",
+        "resources": [
+          "chain_value_water--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "dev_inv_cap",
+        "resources": [
+          "dev_inv_cap--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "emp_fte_air",
+        "resources": [
+          "emp_fte_air--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "emp_fte_land",
+        "resources": [
+          "emp_fte_land--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "emp_fte_water",
+        "resources": [
+          "emp_fte_water--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_admin",
+        "resources": [
+          "ent_nr_admin--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_arts",
+        "resources": [
+          "ent_nr_arts--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_const",
+        "resources": [
+          "ent_nr_const--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_edu",
+        "resources": [
+          "ent_nr_edu--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_elec",
+        "resources": [
+          "ent_nr_elec--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_finance",
+        "resources": [
+          "ent_nr_finance--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_food",
+        "resources": [
+          "ent_nr_food--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_health",
+        "resources": [
+          "ent_nr_health--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_info",
+        "resources": [
+          "ent_nr_info--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_manu",
+        "resources": [
+          "ent_nr_manu--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_mine",
+        "resources": [
+          "ent_nr_mine--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_prof",
+        "resources": [
+          "ent_nr_prof--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_real",
+        "resources": [
+          "ent_nr_real--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_retail",
+        "resources": [
+          "ent_nr_retail--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_transp",
+        "resources": [
+          "ent_nr_transp--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ent_nr_water",
+        "resources": [
+          "ent_nr_water--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "env_rnd",
+        "resources": [
+          "env_rnd--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "env_sub_corp",
+        "resources": [
+          "env_sub_corp--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "env_sub_total",
+        "resources": [
+          "env_sub_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "env_tax_gdp",
+        "resources": [
+          "env_tax_gdp--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "env_tax_total",
+        "resources": [
+          "env_tax_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "exp_total",
+        "resources": [
+          "exp_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "fte_total",
+        "resources": [
+          "fte_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ggas_cap_air",
+        "resources": [
+          "ggas_cap_air--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ggas_cap_land",
+        "resources": [
+          "ggas_cap_land--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "ggas_cap_water",
+        "resources": [
+          "ggas_cap_water--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "imp_total",
+        "resources": [
+          "imp_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "kem_tonne",
+        "resources": [
+          "kem_tonne--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "out_gdp_total",
+        "resources": [
+          "out_gdp_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "out_mil_agri",
+        "resources": [
+          "out_mil_agri--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "out_mil_const",
+        "resources": [
+          "out_mil_const--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "out_mil_elec",
+        "resources": [
+          "out_mil_elec--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "out_mil_mine",
+        "resources": [
+          "out_mil_mine--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "out_mil_serv",
+        "resources": [
+          "out_mil_serv--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "out_mil_total",
+        "resources": [
+          "out_mil_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "total_ffuel_tax",
+        "resources": [
+          "total_ffuel_tax--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "total_fte_agri",
+        "resources": [
+          "total_fte_agri--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "total_fte_const",
+        "resources": [
+          "total_fte_const--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "total_fte_elec",
+        "resources": [
+          "total_fte_elec--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "total_fte_mine",
+        "resources": [
+          "total_fte_mine--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "total_fte_serv",
+        "resources": [
+          "total_fte_serv--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "total_fte_total",
+        "resources": [
+          "total_fte_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "val_chain_total",
+        "resources": [
+          "val_chain_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "val_gdp_total",
+        "resources": [
+          "val_gdp_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "val_mil_agri",
+        "resources": [
+          "val_mil_agri--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "val_mil_const",
+        "resources": [
+          "val_mil_const--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "val_mil_elec",
+        "resources": [
+          "val_mil_elec--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "val_mil_mine",
+        "resources": [
+          "val_mil_mine--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "val_mil_serv",
+        "resources": [
+          "val_mil_serv--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "val_mil_total",
+        "resources": [
+          "val_mil_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ae_cap_admin",
+        "resources": [
+          "ae_cap_admin--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ae_cap_agri",
+        "resources": [
+          "ae_cap_agri--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ae_cap_arts",
+        "resources": [
+          "ae_cap_arts--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ae_cap_const",
+        "resources": [
+          "ae_cap_const--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ae_cap_def",
+        "resources": [
+          "ae_cap_def--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ae_cap_edu",
+        "resources": [
+          "ae_cap_edu--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ae_cap_elec",
+        "resources": [
+          "ae_cap_elec--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ae_cap_exorg",
+        "resources": [
+          "ae_cap_exorg--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ae_cap_finance",
+        "resources": [
+          "ae_cap_finance--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ae_cap_food",
+        "resources": [
+          "ae_cap_food--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ae_cap_health",
+        "resources": [
+          "ae_cap_health--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "geog",
           "year"
         ],
-        "value": "and_d_fast",
+        "value": "ae_cap_house",
         "resources": [
-          "and_d_fast--by--sni_id--year"
+          "ae_cap_house--by--country--year"
         ]
       },
       {
@@ -3056,9 +3708,9 @@
           "geog",
           "year"
         ],
-        "value": "and_d_lop",
+        "value": "ae_cap_info",
         "resources": [
-          "and_d_lop--by--sni_id--year"
+          "ae_cap_info--by--country--year"
         ]
       },
       {
@@ -3066,9 +3718,9 @@
           "geog",
           "year"
         ],
-        "value": "and_forb_inv",
+        "value": "ae_cap_manu",
         "resources": [
-          "and_forb_inv--by--sni_id--year"
+          "ae_cap_manu--by--country--year"
         ]
       },
       {
@@ -3076,9 +3728,9 @@
           "geog",
           "year"
         ],
-        "value": "and_milj_ex",
+        "value": "ae_cap_mine",
         "resources": [
-          "and_milj_ex--by--sni_id--year"
+          "ae_cap_mine--by--country--year"
         ]
       },
       {
@@ -3086,9 +3738,9 @@
           "geog",
           "year"
         ],
-        "value": "and_milj_tot",
+        "value": "ae_cap_other",
         "resources": [
-          "and_milj_tot--by--sni_id--year"
+          "ae_cap_other--by--country--year"
         ]
       },
       {
@@ -3096,9 +3748,9 @@
           "geog",
           "year"
         ],
-        "value": "and_reg_foradl",
+        "value": "ae_cap_prof",
         "resources": [
-          "and_reg_foradl--by--sni_id--year"
+          "ae_cap_prof--by--country--year"
         ]
       },
       {
@@ -3106,9 +3758,9 @@
           "geog",
           "year"
         ],
-        "value": "and_syssel",
+        "value": "ae_cap_real",
         "resources": [
-          "and_syssel--by--sni_id--year"
+          "ae_cap_real--by--country--year"
         ]
       },
       {
@@ -3116,9 +3768,9 @@
           "geog",
           "year"
         ],
-        "value": "anim_farl",
+        "value": "ae_cap_retail",
         "resources": [
-          "anim_farl--by--sni_id--year"
+          "ae_cap_retail--by--country--year"
         ]
       },
       {
@@ -3126,9 +3778,9 @@
           "geog",
           "year"
         ],
-        "value": "anim_icke_farl",
+        "value": "ae_cap_total",
         "resources": [
-          "anim_icke_farl--by--sni_id--year"
+          "ae_cap_total--by--country--year"
         ]
       },
       {
@@ -3136,9 +3788,9 @@
           "geog",
           "year"
         ],
-        "value": "annat_farl",
+        "value": "ae_cap_transp",
         "resources": [
-          "annat_farl--by--sni_id--year"
+          "ae_cap_transp--by--country--year"
         ]
       },
       {
@@ -3146,9 +3798,9 @@
           "geog",
           "year"
         ],
-        "value": "annat_icke_farl",
+        "value": "ae_cap_water",
         "resources": [
-          "annat_icke_farl--by--sni_id--year"
+          "ae_cap_water--by--country--year"
         ]
       },
       {
@@ -3156,9 +3808,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_ans_kon",
+        "value": "ae_ton_admin",
         "resources": [
-          "ant_ans_kon--by--sni_id--year"
+          "ae_ton_admin--by--country--year"
         ]
       },
       {
@@ -3166,9 +3818,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_for_en",
+        "value": "ae_ton_agri",
         "resources": [
-          "ant_for_en--by--sni_id--year"
+          "ae_ton_agri--by--country--year"
         ]
       },
       {
@@ -3176,9 +3828,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_for_fem",
+        "value": "ae_ton_air",
         "resources": [
-          "ant_for_fem--by--sni_id--year"
+          "ae_ton_air--by--country--year"
         ]
       },
       {
@@ -3186,9 +3838,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_for_fem_hundra",
+        "value": "ae_ton_arts",
         "resources": [
-          "ant_for_fem_hundra--by--sni_id--year"
+          "ae_ton_arts--by--country--year"
         ]
       },
       {
@@ -3196,9 +3848,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_for_femtio",
+        "value": "ae_ton_const",
         "resources": [
-          "ant_for_femtio--by--sni_id--year"
+          "ae_ton_const--by--country--year"
         ]
       },
       {
@@ -3206,9 +3858,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_for_hundra",
+        "value": "ae_ton_def",
         "resources": [
-          "ant_for_hundra--by--sni_id--year"
+          "ae_ton_def--by--country--year"
         ]
       },
       {
@@ -3216,9 +3868,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_for_noll",
+        "value": "ae_ton_edu",
         "resources": [
-          "ant_for_noll--by--sni_id--year"
+          "ae_ton_edu--by--country--year"
         ]
       },
       {
@@ -3226,9 +3878,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_for_tio",
+        "value": "ae_ton_elec",
         "resources": [
-          "ant_for_tio--by--sni_id--year"
+          "ae_ton_elec--by--country--year"
         ]
       },
       {
@@ -3236,9 +3888,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_for_tjugo",
+        "value": "ae_ton_exorg",
         "resources": [
-          "ant_for_tjugo--by--sni_id--year"
+          "ae_ton_exorg--by--country--year"
         ]
       },
       {
@@ -3246,9 +3898,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_for_tot",
+        "value": "ae_ton_finance",
         "resources": [
-          "ant_for_tot--by--sni_id--year"
+          "ae_ton_finance--by--country--year"
         ]
       },
       {
@@ -3256,9 +3908,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_for_tva_hundra",
+        "value": "ae_ton_food",
         "resources": [
-          "ant_for_tva_hundra--by--sni_id--year"
+          "ae_ton_food--by--country--year"
         ]
       },
       {
@@ -3266,9 +3918,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_forv_kvn_reg",
+        "value": "ae_ton_health",
         "resources": [
-          "ant_forv_kvn_reg--by--sni_id--year"
+          "ae_ton_health--by--country--year"
         ]
       },
       {
@@ -3276,9 +3928,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_forv_man_reg",
+        "value": "ae_ton_house",
         "resources": [
-          "ant_forv_man_reg--by--sni_id--year"
+          "ae_ton_house--by--country--year"
         ]
       },
       {
@@ -3286,9 +3938,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_forv_tot_reg",
+        "value": "ae_ton_house_emp",
         "resources": [
-          "ant_forv_tot_reg--by--sni_id--year"
+          "ae_ton_house_emp--by--country--year"
         ]
       },
       {
@@ -3296,9 +3948,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_kon",
+        "value": "ae_ton_info",
         "resources": [
-          "ant_kon--by--sni_id--year"
+          "ae_ton_info--by--country--year"
         ]
       },
       {
@@ -3306,9 +3958,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_ny",
+        "value": "ae_ton_isic",
         "resources": [
-          "ant_ny--by--sni_id--year"
+          "ae_ton_isic--by--country--year"
         ]
       },
       {
@@ -3316,9 +3968,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_syss_miljo",
+        "value": "ae_ton_isic_nace",
         "resources": [
-          "ant_syss_miljo--by--sni_id--year"
+          "ae_ton_isic_nace--by--country--year"
         ]
       },
       {
@@ -3326,9 +3978,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_syssel",
+        "value": "ae_ton_land",
         "resources": [
-          "ant_syssel--by--sni_id--year"
+          "ae_ton_land--by--country--year"
         ]
       },
       {
@@ -3336,9 +3988,9 @@
           "geog",
           "year"
         ],
-        "value": "arb_tim",
+        "value": "ae_ton_manu",
         "resources": [
-          "arb_tim--by--sni_id--year"
+          "ae_ton_manu--by--country--year"
         ]
       },
       {
@@ -3346,9 +3998,9 @@
           "geog",
           "year"
         ],
-        "value": "avlopp_farl",
+        "value": "ae_ton_mine",
         "resources": [
-          "avlopp_farl--by--sni_id--year"
+          "ae_ton_mine--by--country--year"
         ]
       },
       {
@@ -3356,9 +4008,9 @@
           "geog",
           "year"
         ],
-        "value": "avlopp_icke_farl",
+        "value": "ae_ton_other",
         "resources": [
-          "avlopp_icke_farl--by--sni_id--year"
+          "ae_ton_other--by--country--year"
         ]
       },
       {
@@ -3366,9 +4018,9 @@
           "geog",
           "year"
         ],
-        "value": "batt_farl",
+        "value": "ae_ton_prof",
         "resources": [
-          "batt_farl--by--sni_id--year"
+          "ae_ton_prof--by--country--year"
         ]
       },
       {
@@ -3376,9 +4028,9 @@
           "geog",
           "year"
         ],
-        "value": "batt_icke_farl",
+        "value": "ae_ton_real",
         "resources": [
-          "batt_icke_farl--by--sni_id--year"
+          "ae_ton_real--by--country--year"
         ]
       },
       {
@@ -3386,9 +4038,9 @@
           "geog",
           "year"
         ],
-        "value": "bland_farl",
+        "value": "ae_ton_retail",
         "resources": [
-          "bland_farl--by--sni_id--year"
+          "ae_ton_retail--by--country--year"
         ]
       },
       {
@@ -3396,9 +4048,9 @@
           "geog",
           "year"
         ],
-        "value": "bland_icke_farl",
+        "value": "ae_ton_serv",
         "resources": [
-          "bland_icke_farl--by--sni_id--year"
+          "ae_ton_serv--by--country--year"
         ]
       },
       {
@@ -3406,9 +4058,9 @@
           "geog",
           "year"
         ],
-        "value": "bland_met_farl",
+        "value": "ae_ton_total",
         "resources": [
-          "bland_met_farl--by--sni_id--year"
+          "ae_ton_total--by--country--year"
         ]
       },
       {
@@ -3416,9 +4068,9 @@
           "geog",
           "year"
         ],
-        "value": "bland_met_icke_farl",
+        "value": "ae_ton_transp",
         "resources": [
-          "bland_met_icke_farl--by--sni_id--year"
+          "ae_ton_transp--by--country--year"
         ]
       },
       {
@@ -3426,9 +4078,9 @@
           "geog",
           "year"
         ],
-        "value": "bnp_prod_fast",
+        "value": "ae_ton_wat_trans",
         "resources": [
-          "bnp_prod_fast--by--sni_id--year"
+          "ae_ton_wat_trans--by--country--year"
         ]
       },
       {
@@ -3436,9 +4088,9 @@
           "geog",
           "year"
         ],
-        "value": "bnp_prod_lop",
+        "value": "ae_ton_water",
         "resources": [
-          "bnp_prod_lop--by--sni_id--year"
+          "ae_ton_water--by--country--year"
         ]
       },
       {
@@ -3446,9 +4098,9 @@
           "geog",
           "year"
         ],
-        "value": "brp",
+        "value": "chain_out_air",
         "resources": [
-          "brp--by--sni_id--year"
+          "chain_out_air--by--country--year"
         ]
       },
       {
@@ -3456,9 +4108,9 @@
           "geog",
           "year"
         ],
-        "value": "co_skatt",
+        "value": "chain_out_land",
         "resources": [
-          "co_skatt--by--sni_id--year"
+          "chain_out_land--by--country--year"
         ]
       },
       {
@@ -3466,9 +4118,9 @@
           "geog",
           "year"
         ],
-        "value": "export",
+        "value": "chain_out_transp",
         "resources": [
-          "export--by--sni_id--year"
+          "chain_out_transp--by--country--year"
         ]
       },
       {
@@ -3476,9 +4128,9 @@
           "geog",
           "year"
         ],
-        "value": "fastfaktor",
+        "value": "chain_out_water",
         "resources": [
-          "fastfaktor--by--sni_id--year"
+          "chain_out_water--by--country--year"
         ]
       },
       {
@@ -3486,9 +4138,9 @@
           "geog",
           "year"
         ],
-        "value": "foradl",
+        "value": "chain_value_air",
         "resources": [
-          "foradl--by--sni_id--year"
+          "chain_value_air--by--country--year"
         ]
       },
       {
@@ -3496,9 +4148,9 @@
           "geog",
           "year"
         ],
-        "value": "foradl_bio",
+        "value": "chain_value_land",
         "resources": [
-          "foradl_bio--by--sni_id--year"
+          "chain_value_land--by--country--year"
         ]
       },
       {
@@ -3506,9 +4158,9 @@
           "geog",
           "year"
         ],
-        "value": "forb_fos",
+        "value": "chain_value_transp",
         "resources": [
-          "forb_fos--by--sni_id--year"
+          "chain_value_transp--by--country--year"
         ]
       },
       {
@@ -3516,9 +4168,9 @@
           "geog",
           "year"
         ],
-        "value": "forbr_bio",
+        "value": "chain_value_water",
         "resources": [
-          "forbr_bio--by--sni_id--year"
+          "chain_value_water--by--country--year"
         ]
       },
       {
@@ -3526,9 +4178,9 @@
           "geog",
           "year"
         ],
-        "value": "forbrann_farl",
+        "value": "dev_inv_cap",
         "resources": [
-          "forbrann_farl--by--sni_id--year"
+          "dev_inv_cap--by--country--year"
         ]
       },
       {
@@ -3536,9 +4188,9 @@
           "geog",
           "year"
         ],
-        "value": "forbrann_icke_farl",
+        "value": "emp_fte_air",
         "resources": [
-          "forbrann_icke_farl--by--sni_id--year"
+          "emp_fte_air--by--country--year"
         ]
       },
       {
@@ -3546,9 +4198,9 @@
           "geog",
           "year"
         ],
-        "value": "fordon_farl",
+        "value": "emp_fte_land",
         "resources": [
-          "fordon_farl--by--sni_id--year"
+          "emp_fte_land--by--country--year"
         ]
       },
       {
@@ -3556,9 +4208,9 @@
           "geog",
           "year"
         ],
-        "value": "fordon_icke_farl",
+        "value": "emp_fte_water",
         "resources": [
-          "fordon_icke_farl--by--sni_id--year"
+          "emp_fte_water--by--country--year"
         ]
       },
       {
@@ -3566,9 +4218,9 @@
           "geog",
           "year"
         ],
-        "value": "foreb_inv",
+        "value": "ent_nr_admin",
         "resources": [
-          "foreb_inv--by--sni_id--year"
+          "ent_nr_admin--by--country--year"
         ]
       },
       {
@@ -3576,9 +4228,9 @@
           "geog",
           "year"
         ],
-        "value": "forv_kvn",
+        "value": "ent_nr_arts",
         "resources": [
-          "forv_kvn--by--sni_id--year"
+          "ent_nr_arts--by--country--year"
         ]
       },
       {
@@ -3586,9 +4238,9 @@
           "geog",
           "year"
         ],
-        "value": "forv_kvn_bio",
+        "value": "ent_nr_const",
         "resources": [
-          "forv_kvn_bio--by--sni_id--year"
+          "ent_nr_const--by--country--year"
         ]
       },
       {
@@ -3596,9 +4248,9 @@
           "geog",
           "year"
         ],
-        "value": "forv_man",
+        "value": "ent_nr_edu",
         "resources": [
-          "forv_man--by--sni_id--year"
+          "ent_nr_edu--by--country--year"
         ]
       },
       {
@@ -3606,9 +4258,9 @@
           "geog",
           "year"
         ],
-        "value": "forv_man_bio",
+        "value": "ent_nr_elec",
         "resources": [
-          "forv_man_bio--by--sni_id--year"
+          "ent_nr_elec--by--country--year"
         ]
       },
       {
@@ -3616,9 +4268,9 @@
           "geog",
           "year"
         ],
-        "value": "forv_to",
+        "value": "ent_nr_finance",
         "resources": [
-          "forv_to--by--sni_id--year"
+          "ent_nr_finance--by--country--year"
         ]
       },
       {
@@ -3626,9 +4278,9 @@
           "geog",
           "year"
         ],
-        "value": "forv_tot_bio",
+        "value": "ent_nr_food",
         "resources": [
-          "forv_tot_bio--by--sni_id--year"
+          "ent_nr_food--by--country--year"
         ]
       },
       {
@@ -3636,9 +4288,9 @@
           "geog",
           "year"
         ],
-        "value": "fv",
+        "value": "ent_nr_health",
         "resources": [
-          "fv--by--sni_id--year"
+          "ent_nr_health--by--country--year"
         ]
       },
       {
@@ -3646,9 +4298,9 @@
           "geog",
           "year"
         ],
-        "value": "ghg_kilo",
+        "value": "ent_nr_info",
         "resources": [
-          "ghg_kilo--by--sni_id--year"
+          "ent_nr_info--by--country--year"
         ]
       },
       {
@@ -3656,9 +4308,9 @@
           "geog",
           "year"
         ],
-        "value": "glas_farl",
+        "value": "ent_nr_manu",
         "resources": [
-          "glas_farl--by--sni_id--year"
+          "ent_nr_manu--by--country--year"
         ]
       },
       {
@@ -3666,9 +4318,9 @@
           "geog",
           "year"
         ],
-        "value": "glas_icke_farl",
+        "value": "ent_nr_mine",
         "resources": [
-          "glas_icke_farl--by--sni_id--year"
+          "ent_nr_mine--by--country--year"
         ]
       },
       {
@@ -3676,9 +4328,9 @@
           "geog",
           "year"
         ],
-        "value": "godsel_farl",
+        "value": "ent_nr_prof",
         "resources": [
-          "godsel_farl--by--sni_id--year"
+          "ent_nr_prof--by--country--year"
         ]
       },
       {
@@ -3686,9 +4338,9 @@
           "geog",
           "year"
         ],
-        "value": "godsel_icke_farl",
+        "value": "ent_nr_real",
         "resources": [
-          "godsel_icke_farl--by--sni_id--year"
+          "ent_nr_real--by--country--year"
         ]
       },
       {
@@ -3696,9 +4348,9 @@
           "geog",
           "year"
         ],
-        "value": "gummi_farl",
+        "value": "ent_nr_retail",
         "resources": [
-          "gummi_farl--by--sni_id--year"
+          "ent_nr_retail--by--country--year"
         ]
       },
       {
@@ -3706,9 +4358,9 @@
           "geog",
           "year"
         ],
-        "value": "gummi_icke_farl",
+        "value": "ent_nr_transp",
         "resources": [
-          "gummi_icke_farl--by--sni_id--year"
+          "ent_nr_transp--by--country--year"
         ]
       },
       {
@@ -3716,9 +4368,9 @@
           "geog",
           "year"
         ],
-        "value": "hushall_farl",
+        "value": "ent_nr_water",
         "resources": [
-          "hushall_farl--by--sni_id--year"
+          "ent_nr_water--by--country--year"
         ]
       },
       {
@@ -3726,9 +4378,9 @@
           "geog",
           "year"
         ],
-        "value": "hushall_icke_farl",
+        "value": "env_rnd",
         "resources": [
-          "hushall_icke_farl--by--sni_id--year"
+          "env_rnd--by--country--year"
         ]
       },
       {
@@ -3736,9 +4388,9 @@
           "geog",
           "year"
         ],
-        "value": "int_kem",
+        "value": "env_sub_corp",
         "resources": [
-          "int_kem--by--sni_id--year"
+          "env_sub_corp--by--country--year"
         ]
       },
       {
@@ -3746,9 +4398,9 @@
           "geog",
           "year"
         ],
-        "value": "inv_miljo",
+        "value": "env_sub_total",
         "resources": [
-          "inv_miljo--by--sni_id--year"
+          "env_sub_total--by--country--year"
         ]
       },
       {
@@ -3756,9 +4408,9 @@
           "geog",
           "year"
         ],
-        "value": "jord_farl",
+        "value": "env_tax_gdp",
         "resources": [
-          "jord_farl--by--sni_id--year"
+          "env_tax_gdp--by--country--year"
         ]
       },
       {
@@ -3766,9 +4418,9 @@
           "geog",
           "year"
         ],
-        "value": "jord_icke_farl",
+        "value": "env_tax_total",
         "resources": [
-          "jord_icke_farl--by--sni_id--year"
+          "env_tax_total--by--country--year"
         ]
       },
       {
@@ -3776,9 +4428,9 @@
           "geog",
           "year"
         ],
-        "value": "kass_farl",
+        "value": "exp_total",
         "resources": [
-          "kass_farl--by--sni_id--year"
+          "exp_total--by--country--year"
         ]
       },
       {
@@ -3786,9 +4438,9 @@
           "geog",
           "year"
         ],
-        "value": "kass_icke_farl",
+        "value": "fte_total",
         "resources": [
-          "kass_icke_farl--by--sni_id--year"
+          "fte_total--by--country--year"
         ]
       },
       {
@@ -3796,9 +4448,9 @@
           "geog",
           "year"
         ],
-        "value": "kem_anv",
+        "value": "ggas_cap_air",
         "resources": [
-          "kem_anv--by--sni_id--year"
+          "ggas_cap_air--by--country--year"
         ]
       },
       {
@@ -3806,9 +4458,9 @@
           "geog",
           "year"
         ],
-        "value": "kem_anv_tonne_msek",
+        "value": "ggas_cap_land",
         "resources": [
-          "kem_anv_tonne_msek--by--sni_id--year"
+          "ggas_cap_land--by--country--year"
         ]
       },
       {
@@ -3816,9 +4468,9 @@
           "geog",
           "year"
         ],
-        "value": "kem_farl",
+        "value": "ggas_cap_water",
         "resources": [
-          "kem_farl--by--sni_id--year"
+          "ggas_cap_water--by--country--year"
         ]
       },
       {
@@ -3826,9 +4478,9 @@
           "geog",
           "year"
         ],
-        "value": "kem_icke_farl",
+        "value": "imp_total",
         "resources": [
-          "kem_icke_farl--by--sni_id--year"
+          "imp_total--by--country--year"
         ]
       },
       {
@@ -3838,7 +4490,7 @@
         ],
         "value": "kem_tonne",
         "resources": [
-          "kem_tonne--by--sni_id--year"
+          "kem_tonne--by--country--year"
         ]
       },
       {
@@ -3846,9 +4498,9 @@
           "geog",
           "year"
         ],
-        "value": "koldi_skatt",
+        "value": "out_gdp_total",
         "resources": [
-          "koldi_skatt--by--sni_id--year"
+          "out_gdp_total--by--country--year"
         ]
       },
       {
@@ -3856,9 +4508,9 @@
           "geog",
           "year"
         ],
-        "value": "losn_farl",
+        "value": "out_mil_agri",
         "resources": [
-          "losn_farl--by--sni_id--year"
+          "out_mil_agri--by--country--year"
         ]
       },
       {
@@ -3866,9 +4518,9 @@
           "geog",
           "year"
         ],
-        "value": "losn_icke_farl",
+        "value": "out_mil_const",
         "resources": [
-          "losn_icke_farl--by--sni_id--year"
+          "out_mil_const--by--country--year"
         ]
       },
       {
@@ -3876,9 +4528,9 @@
           "geog",
           "year"
         ],
-        "value": "medel_syss",
+        "value": "out_mil_elec",
         "resources": [
-          "medel_syss--by--sni_id--year"
+          "out_mil_elec--by--country--year"
         ]
       },
       {
@@ -3886,9 +4538,9 @@
           "geog",
           "year"
         ],
-        "value": "met_avf_farl",
+        "value": "out_mil_mine",
         "resources": [
-          "met_avf_farl--by--sni_id--year"
+          "out_mil_mine--by--country--year"
         ]
       },
       {
@@ -3896,9 +4548,9 @@
           "geog",
           "year"
         ],
-        "value": "met_avf_icke_farl",
+        "value": "out_mil_serv",
         "resources": [
-          "met_avf_icke_farl--by--sni_id--year"
+          "out_mil_serv--by--country--year"
         ]
       },
       {
@@ -3906,9 +4558,9 @@
           "geog",
           "year"
         ],
-        "value": "met_icke_fer_farl",
+        "value": "out_mil_total",
         "resources": [
-          "met_icke_fer_farl--by--sni_id--year"
+          "out_mil_total--by--country--year"
         ]
       },
       {
@@ -3916,9 +4568,9 @@
           "geog",
           "year"
         ],
-        "value": "met_icke_fer_icke_farl",
+        "value": "total_ffuel_tax",
         "resources": [
-          "met_icke_fer_icke_farl--by--sni_id--year"
+          "total_ffuel_tax--by--country--year"
         ]
       },
       {
@@ -3926,9 +4578,9 @@
           "geog",
           "year"
         ],
-        "value": "min_avf_farl",
+        "value": "total_fte_agri",
         "resources": [
-          "min_avf_farl--by--sni_id--year"
+          "total_fte_agri--by--country--year"
         ]
       },
       {
@@ -3936,9 +4588,9 @@
           "geog",
           "year"
         ],
-        "value": "min_avf_icke_farl",
+        "value": "total_fte_const",
         "resources": [
-          "min_avf_icke_farl--by--sni_id--year"
+          "total_fte_const--by--country--year"
         ]
       },
       {
@@ -3946,9 +4598,9 @@
           "geog",
           "year"
         ],
-        "value": "min_farl",
+        "value": "total_fte_elec",
         "resources": [
-          "min_farl--by--sni_id--year"
+          "total_fte_elec--by--country--year"
         ]
       },
       {
@@ -3956,9 +4608,9 @@
           "geog",
           "year"
         ],
-        "value": "min_icke_farl",
+        "value": "total_fte_mine",
         "resources": [
-          "min_icke_farl--by--sni_id--year"
+          "total_fte_mine--by--country--year"
         ]
       },
       {
@@ -3966,9 +4618,9 @@
           "geog",
           "year"
         ],
-        "value": "mudder_farl",
+        "value": "total_fte_serv",
         "resources": [
-          "mudder_farl--by--sni_id--year"
+          "total_fte_serv--by--country--year"
         ]
       },
       {
@@ -3976,9 +4628,9 @@
           "geog",
           "year"
         ],
-        "value": "mudder_icke_farl",
+        "value": "total_fte_total",
         "resources": [
-          "mudder_icke_farl--by--sni_id--year"
+          "total_fte_total--by--country--year"
         ]
       },
       {
@@ -3986,9 +4638,9 @@
           "geog",
           "year"
         ],
-        "value": "netto_bio",
+        "value": "val_chain_total",
         "resources": [
-          "netto_bio--by--sni_id--year"
+          "val_chain_total--by--country--year"
         ]
       },
       {
@@ -3996,9 +4648,9 @@
           "geog",
           "year"
         ],
-        "value": "olje_farl",
+        "value": "val_gdp_total",
         "resources": [
-          "olje_farl--by--sni_id--year"
+          "val_gdp_total--by--country--year"
         ]
       },
       {
@@ -4006,9 +4658,9 @@
           "geog",
           "year"
         ],
-        "value": "olje_icke_farl",
+        "value": "val_mil_agri",
         "resources": [
-          "olje_icke_farl--by--sni_id--year"
+          "val_mil_agri--by--country--year"
         ]
       },
       {
@@ -4016,9 +4668,9 @@
           "geog",
           "year"
         ],
-        "value": "papp_farl",
+        "value": "val_mil_const",
         "resources": [
-          "papp_farl--by--sni_id--year"
+          "val_mil_const--by--country--year"
         ]
       },
       {
@@ -4026,9 +4678,9 @@
           "geog",
           "year"
         ],
-        "value": "papp_icke_farl",
+        "value": "val_mil_elec",
         "resources": [
-          "papp_icke_farl--by--sni_id--year"
+          "val_mil_elec--by--country--year"
         ]
       },
       {
@@ -4036,9 +4688,9 @@
           "geog",
           "year"
         ],
-        "value": "pbc_icke_farl",
+        "value": "val_mil_mine",
         "resources": [
-          "pbc_icke_farl--by--sni_id--year"
+          "val_mil_mine--by--country--year"
         ]
       },
       {
@@ -4046,9 +4698,9 @@
           "geog",
           "year"
         ],
-        "value": "pcb_farl",
+        "value": "val_mil_serv",
         "resources": [
-          "pcb_farl--by--sni_id--year"
+          "val_mil_serv--by--country--year"
         ]
       },
       {
@@ -4056,1820 +4708,38 @@
           "geog",
           "year"
         ],
-        "value": "plast_farl",
+        "value": "val_mil_total",
         "resources": [
-          "plast_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "plast_icke_farl",
-        "resources": [
-          "plast_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "prod",
-        "resources": [
-          "prod--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "prod_v",
-        "resources": [
-          "prod_v--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "reg_foradl",
-        "resources": [
-          "reg_foradl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "reg_foradl_ber_lop",
-        "resources": [
-          "reg_foradl_ber_lop--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "res_rakn",
-        "resources": [
-          "res_rakn--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "sjukv_avf_farl",
-        "resources": [
-          "sjukv_avf_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "sjukv_avf_icke_farl",
-        "resources": [
-          "sjukv_avf_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "slam_farl",
-        "resources": [
-          "slam_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "slam_icke_farl",
-        "resources": [
-          "slam_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "slut_eft",
-        "resources": [
-          "slut_eft--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "sort_farl",
-        "resources": [
-          "sort_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "sort_icke_farl",
-        "resources": [
-          "sort_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "surt_farl",
-        "resources": [
-          "surt_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "surt_icke_farl",
-        "resources": [
-          "surt_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "syssels",
-        "resources": [
-          "syssels--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "textil_farl",
-        "resources": [
-          "textil_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "textil_icke_farl",
-        "resources": [
-          "textil_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "tot_farl",
-        "resources": [
-          "tot_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "tot_icke_farl",
-        "resources": [
-          "tot_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "tot_netto",
-        "resources": [
-          "tot_netto--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "tot_syssel_ant",
-        "resources": [
-          "tot_syssel_ant--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "tot_syssel_ex",
-        "resources": [
-          "tot_syssel_ex--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "tot_syssels",
-        "resources": [
-          "tot_syssels--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "tra_farl",
-        "resources": [
-          "tra_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "tra_icke_farl",
-        "resources": [
-          "tra_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "utsl_ghg",
-        "resources": [
-          "utsl_ghg--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "utsl_kilo_tonne",
-        "resources": [
-          "utsl_kilo_tonne--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "utsl_koldi",
-        "resources": [
-          "utsl_koldi--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "utsl_p_prod",
-        "resources": [
-          "utsl_p_prod--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "utsl_skatt",
-        "resources": [
-          "utsl_skatt--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "vanlig_farl",
-        "resources": [
-          "vanlig_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "vanlig_icke_farl",
-        "resources": [
-          "vanlig_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "varuexp",
-        "resources": [
-          "varuexp--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "varuimp",
-        "resources": [
-          "varuimp--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "vaxt_int",
-        "resources": [
-          "vaxt_int--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "vaxthusg",
-        "resources": [
-          "vaxthusg--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "vege_farl",
-        "resources": [
-          "vege_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "vege_icke_farl",
-        "resources": [
-          "vege_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "and_d_fast",
-        "resources": [
-          "and_d_fast--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "and_d_lop",
-        "resources": [
-          "and_d_lop--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "and_forb_inv",
-        "resources": [
-          "and_forb_inv--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "and_milj_ex",
-        "resources": [
-          "and_milj_ex--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "and_milj_tot",
-        "resources": [
-          "and_milj_tot--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "and_reg_foradl",
-        "resources": [
-          "and_reg_foradl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "and_syssel",
-        "resources": [
-          "and_syssel--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "anim_farl",
-        "resources": [
-          "anim_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "anim_icke_farl",
-        "resources": [
-          "anim_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "annat_farl",
-        "resources": [
-          "annat_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "annat_icke_farl",
-        "resources": [
-          "annat_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_ans_kon",
-        "resources": [
-          "ant_ans_kon--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_en",
-        "resources": [
-          "ant_for_en--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_fem",
-        "resources": [
-          "ant_for_fem--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_fem_hundra",
-        "resources": [
-          "ant_for_fem_hundra--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_femtio",
-        "resources": [
-          "ant_for_femtio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_hundra",
-        "resources": [
-          "ant_for_hundra--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_noll",
-        "resources": [
-          "ant_for_noll--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_tio",
-        "resources": [
-          "ant_for_tio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_tjugo",
-        "resources": [
-          "ant_for_tjugo--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_tot",
-        "resources": [
-          "ant_for_tot--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_tva_hundra",
-        "resources": [
-          "ant_for_tva_hundra--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_forv_kvn_reg",
-        "resources": [
-          "ant_forv_kvn_reg--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_forv_man_reg",
-        "resources": [
-          "ant_forv_man_reg--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_forv_tot_reg",
-        "resources": [
-          "ant_forv_tot_reg--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_kon",
-        "resources": [
-          "ant_kon--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_ny",
-        "resources": [
-          "ant_ny--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_syss_miljo",
-        "resources": [
-          "ant_syss_miljo--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_syssel",
-        "resources": [
-          "ant_syssel--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "arb_tim",
-        "resources": [
-          "arb_tim--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "avlopp_farl",
-        "resources": [
-          "avlopp_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "avlopp_icke_farl",
-        "resources": [
-          "avlopp_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "batt_farl",
-        "resources": [
-          "batt_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "batt_icke_farl",
-        "resources": [
-          "batt_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "bland_farl",
-        "resources": [
-          "bland_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "bland_icke_farl",
-        "resources": [
-          "bland_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "bland_met_farl",
-        "resources": [
-          "bland_met_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "bland_met_icke_farl",
-        "resources": [
-          "bland_met_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "bnp_prod_fast",
-        "resources": [
-          "bnp_prod_fast--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "bnp_prod_lop",
-        "resources": [
-          "bnp_prod_lop--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "brp",
-        "resources": [
-          "brp--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "co_skatt",
-        "resources": [
-          "co_skatt--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "export",
-        "resources": [
-          "export--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "fastfaktor",
-        "resources": [
-          "fastfaktor--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "foradl",
-        "resources": [
-          "foradl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "foradl_bio",
-        "resources": [
-          "foradl_bio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "forb_fos",
-        "resources": [
-          "forb_fos--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "forbr_bio",
-        "resources": [
-          "forbr_bio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "forbrann_farl",
-        "resources": [
-          "forbrann_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "forbrann_icke_farl",
-        "resources": [
-          "forbrann_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "fordon_farl",
-        "resources": [
-          "fordon_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "fordon_icke_farl",
-        "resources": [
-          "fordon_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "foreb_inv",
-        "resources": [
-          "foreb_inv--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "forv_kvn",
-        "resources": [
-          "forv_kvn--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "forv_kvn_bio",
-        "resources": [
-          "forv_kvn_bio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "forv_man",
-        "resources": [
-          "forv_man--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "forv_man_bio",
-        "resources": [
-          "forv_man_bio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "forv_to",
-        "resources": [
-          "forv_to--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "forv_tot_bio",
-        "resources": [
-          "forv_tot_bio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "fv",
-        "resources": [
-          "fv--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ghg_kilo",
-        "resources": [
-          "ghg_kilo--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "glas_farl",
-        "resources": [
-          "glas_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "glas_icke_farl",
-        "resources": [
-          "glas_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "godsel_farl",
-        "resources": [
-          "godsel_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "godsel_icke_farl",
-        "resources": [
-          "godsel_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "gummi_farl",
-        "resources": [
-          "gummi_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "gummi_icke_farl",
-        "resources": [
-          "gummi_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "hushall_farl",
-        "resources": [
-          "hushall_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "hushall_icke_farl",
-        "resources": [
-          "hushall_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "int_kem",
-        "resources": [
-          "int_kem--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "inv_miljo",
-        "resources": [
-          "inv_miljo--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "jord_farl",
-        "resources": [
-          "jord_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "jord_icke_farl",
-        "resources": [
-          "jord_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "kass_farl",
-        "resources": [
-          "kass_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "kass_icke_farl",
-        "resources": [
-          "kass_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "kem_anv",
-        "resources": [
-          "kem_anv--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "kem_anv_tonne_msek",
-        "resources": [
-          "kem_anv_tonne_msek--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "kem_farl",
-        "resources": [
-          "kem_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "kem_icke_farl",
-        "resources": [
-          "kem_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "kem_tonne",
-        "resources": [
-          "kem_tonne--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "koldi_skatt",
-        "resources": [
-          "koldi_skatt--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "losn_farl",
-        "resources": [
-          "losn_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "losn_icke_farl",
-        "resources": [
-          "losn_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "medel_syss",
-        "resources": [
-          "medel_syss--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "met_avf_farl",
-        "resources": [
-          "met_avf_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "met_avf_icke_farl",
-        "resources": [
-          "met_avf_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "met_icke_fer_farl",
-        "resources": [
-          "met_icke_fer_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "met_icke_fer_icke_farl",
-        "resources": [
-          "met_icke_fer_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "min_avf_farl",
-        "resources": [
-          "min_avf_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "min_avf_icke_farl",
-        "resources": [
-          "min_avf_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "min_farl",
-        "resources": [
-          "min_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "min_icke_farl",
-        "resources": [
-          "min_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "mudder_farl",
-        "resources": [
-          "mudder_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "mudder_icke_farl",
-        "resources": [
-          "mudder_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "netto_bio",
-        "resources": [
-          "netto_bio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "olje_farl",
-        "resources": [
-          "olje_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "olje_icke_farl",
-        "resources": [
-          "olje_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "papp_farl",
-        "resources": [
-          "papp_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "papp_icke_farl",
-        "resources": [
-          "papp_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "pbc_icke_farl",
-        "resources": [
-          "pbc_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "pcb_farl",
-        "resources": [
-          "pcb_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "plast_farl",
-        "resources": [
-          "plast_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "plast_icke_farl",
-        "resources": [
-          "plast_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "prod",
-        "resources": [
-          "prod--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "prod_v",
-        "resources": [
-          "prod_v--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "reg_foradl",
-        "resources": [
-          "reg_foradl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "reg_foradl_ber_lop",
-        "resources": [
-          "reg_foradl_ber_lop--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "res_rakn",
-        "resources": [
-          "res_rakn--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "sjukv_avf_farl",
-        "resources": [
-          "sjukv_avf_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "sjukv_avf_icke_farl",
-        "resources": [
-          "sjukv_avf_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "slam_farl",
-        "resources": [
-          "slam_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "slam_icke_farl",
-        "resources": [
-          "slam_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "slut_eft",
-        "resources": [
-          "slut_eft--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "sort_farl",
-        "resources": [
-          "sort_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "sort_icke_farl",
-        "resources": [
-          "sort_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "surt_farl",
-        "resources": [
-          "surt_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "surt_icke_farl",
-        "resources": [
-          "surt_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "syssels",
-        "resources": [
-          "syssels--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "textil_farl",
-        "resources": [
-          "textil_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "textil_icke_farl",
-        "resources": [
-          "textil_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "tot_farl",
-        "resources": [
-          "tot_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "tot_icke_farl",
-        "resources": [
-          "tot_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "tot_netto",
-        "resources": [
-          "tot_netto--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "tot_syssel_ant",
-        "resources": [
-          "tot_syssel_ant--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "tot_syssel_ex",
-        "resources": [
-          "tot_syssel_ex--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "tot_syssels",
-        "resources": [
-          "tot_syssels--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "tra_farl",
-        "resources": [
-          "tra_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "tra_icke_farl",
-        "resources": [
-          "tra_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "utsl_ghg",
-        "resources": [
-          "utsl_ghg--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "utsl_kilo_tonne",
-        "resources": [
-          "utsl_kilo_tonne--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "utsl_koldi",
-        "resources": [
-          "utsl_koldi--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "utsl_p_prod",
-        "resources": [
-          "utsl_p_prod--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "utsl_skatt",
-        "resources": [
-          "utsl_skatt--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "vanlig_farl",
-        "resources": [
-          "vanlig_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "vanlig_icke_farl",
-        "resources": [
-          "vanlig_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "varuexp",
-        "resources": [
-          "varuexp--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "varuimp",
-        "resources": [
-          "varuimp--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "vaxt_int",
-        "resources": [
-          "vaxt_int--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "vaxthusg",
-        "resources": [
-          "vaxthusg--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "vege_farl",
-        "resources": [
-          "vege_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "vege_icke_farl",
-        "resources": [
-          "vege_icke_farl--by--sni_id--year"
+          "val_mil_total--by--country--year"
         ]
       }
     ],
     "entities": [
       {
         "primaryKey": [
+          "country"
+        ],
+        "value": "is--country",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "name",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
           "geog"
         ],
-        "value": "is--sni_id",
+        "value": "is--country",
         "resources": [
-          "geog--sni_id-2"
+          "geog--country-2"
         ]
       },
       {
@@ -5878,25 +4748,7 @@
         ],
         "value": "name",
         "resources": [
-          "geog--sni_id-2"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id"
-        ],
-        "value": "is--sni_id",
-        "resources": [
-          "geog--sni_id-2"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id"
-        ],
-        "value": "name",
-        "resources": [
-          "geog--sni_id-2"
+          "geog--country-2"
         ]
       },
       {
