@@ -3337,16 +3337,6 @@
           "country",
           "year"
         ],
-        "value": "kem_tonne",
-        "resources": [
-          "kem_tonne--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "country",
-          "year"
-        ],
         "value": "out_gdp_total",
         "resources": [
           "out_gdp_total--by--country--year"
@@ -4460,16 +4450,6 @@
         "value": "imp_total",
         "resources": [
           "imp_total--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "kem_tonne",
-        "resources": [
-          "kem_tonne--by--country--year"
         ]
       },
       {
