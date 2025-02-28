@@ -1902,27 +1902,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--kem_tonne--by--country--year.csv",
-      "name": "kem_tonne--by--country--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "country"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "kem_tonne"
-          }
-        ],
-        "primaryKey": [
-          "country",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--out_gdp_total--by--country--year.csv",
       "name": "out_gdp_total--by--country--year",
       "schema": {
