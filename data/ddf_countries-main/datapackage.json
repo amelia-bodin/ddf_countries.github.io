@@ -1902,27 +1902,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--kem_tonne--by--country--year.csv",
-      "name": "kem_tonne--by--country--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "country"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "kem_tonne"
-          }
-        ],
-        "primaryKey": [
-          "country",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--out_gdp_total--by--country--year.csv",
       "name": "out_gdp_total--by--country--year",
       "schema": {
@@ -3358,16 +3337,6 @@
           "country",
           "year"
         ],
-        "value": "kem_tonne",
-        "resources": [
-          "kem_tonne--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "country",
-          "year"
-        ],
         "value": "out_gdp_total",
         "resources": [
           "out_gdp_total--by--country--year"
@@ -4481,16 +4450,6 @@
         "value": "imp_total",
         "resources": [
           "imp_total--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "kem_tonne",
-        "resources": [
-          "kem_tonne--by--country--year"
         ]
       },
       {
