@@ -77,7 +77,7 @@ var CONFIG_BARRANK = {
     "autoconfig": {},
     "data": "data",
     "palette": {
-     "_default": "#ffb600"
+     "_default": "#789e9e"
     },
     "paletteHiddenKeys": [],
     "paletteLabels": null,
