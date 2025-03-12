@@ -26,16 +26,31 @@
 	<h1>Transforma Länder</h1>
 		<div id="placeholder" style="width: 100%; height: 600px;"></div>
 
-    <script src="config.js"></script>
-    <script>
-
-      var ddfcsvReader = new DDFCsvReader.getDDFCsvReaderObject();
-      Vizabi.Reader.extend("ddf", ddfcsvReader);
-      Vizabi.Reader.extend("ext-csv", CsvReader.csvReaderObject);
-      Vizabi.Reader.extend("excel", ExcelReader.excelReaderObject);
-
-      var viz = Vizabi('BubbleChart', document.getElementById('placeholder'), CONFIG);
-
+    <div class="tabs">
+      <button class= "button tab-bubble" id="tab-bubble">Bubbeldiagram</button>
+      <button class= "button tab-bar" id="tab-bar">Rankat stapeldiagram</button>
+    </div>
+    
+    <script src="config-bubble.js"></script>
+    <script src="config-rank.js"></script>
+    <script src="index.js"></script>
+        <script>
+    
+          var ddfcsvReader = new DDFCsvReader.getDDFCsvReaderObject();
+          Vizabi.Reader.extend("ddf", ddfcsvReader);
+          Vizabi.Reader.extend("ext-csv", CsvReader.csvReaderObject);
+          Vizabi.Reader.extend("excel", ExcelReader.excelReaderObject);
+    
+    
+    var viz = Vizabi(CONFIG_BUBBLE.chartType, document.getElementById('placeholder'), CONFIG_BUBBLE);
+    
+    document.getElementById('tab-bubble').addEventListener('click', function() {
+      viz = Vizabi(CONFIG_BUBBLE.chartType, document.getElementById('placeholder'), CONFIG_BUBBLE);
+    });
+    
+    document.getElementById('tab-bar').addEventListener('click', function() {
+      viz = Vizabi(CONFIG_BARRANK.chartType, document.getElementById('placeholder'), CONFIG_BARRANK);
+    });
     </script>
   </body>
 </html>

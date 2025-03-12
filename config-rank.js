@@ -1,15 +1,15 @@
-var CONFIG = {
+var CONFIG_BARRANK = {
  "data": {
-  "_lastModified": 1731418948351,
-  "assetsPath": "C:\\Users\\amelia.bodin\\AppData\\Local\\Programs\\Gapminder Offline\\resources\\preview-data\\",
+  "_lastModified": 1741080164708,
+  "assetsPath": "C:\\Users\\AMELIA~1.BOD\\AppData\\Local\\Temp\\1RHlBDrYoMzfeaISDssbCzjr6jy\\resources\\preview-data\\",
   "ddfPath": "./data/ddf_countries-main",
-  "lastModified": 1731418948351,
+  "lastModified": 1741080164708,
   "path": "./data/ddf_countries-main",
   "reader": "ddf"
  },
  "locale": {
   "filePath": "assets/translation/",
-  "id": "sv-SE"
+  "id": "en"
  },
  "state": {
   "entities": {
@@ -46,14 +46,10 @@ var CONFIG = {
     "allow": {
      "scales": [
       "linear",
-      "log",
-      "genericLog",
-      "time",
-      "pow"
+      "log"
      ]
     },
     "autoconfig": {
-     "index": 0,
      "type": "measure"
     },
     "data": "data",
@@ -61,36 +57,9 @@ var CONFIG = {
     "domainMin": null,
     "fixBaseline": null,
     "scaleType": "linear",
-    "spaceRef": null,
     "syncModels": [],
     "use": "indicator",
-    "which": "imp_total",
-    "zoomedMax": null,
-    "zoomedMin": null
-   },
-   "axis_y": {
-    "allow": {
-     "scales": [
-      "linear",
-      "log",
-      "genericLog",
-      "time",
-      "pow"
-     ]
-    },
-    "autoconfig": {
-     "index": 1,
-     "type": "measure"
-    },
-    "data": "data",
-    "domainMax": null,
-    "domainMin": null,
-    "fixBaseline": null,
-    "scaleType": "linear",
-    "spaceRef": null,
-    "syncModels": [],
-    "use": "indicator",
-    "which": "exp_total",
+    "which": "ae_cap_admin",
     "zoomedMax": null,
     "zoomedMin": null
    },
@@ -108,7 +77,7 @@ var CONFIG = {
     "autoconfig": {},
     "data": "data",
     "palette": {
-     "_default": "#789e9e"
+     "_default": "#ffb600"
     },
     "paletteHiddenKeys": [],
     "paletteLabels": null,
@@ -133,69 +102,11 @@ var CONFIG = {
     "use": "property",
     "which": "name"
    },
-   "limit": 5000,
+   "limit": 1000,
    "opacityHighlightDim": 0.1,
    "opacityRegular": 1,
    "opacitySelectDim": 0.3,
    "select": [],
-   "size": {
-    "allow": {
-     "scales": [
-      "ordinal",
-      "linear",
-      "log",
-      "genericLog",
-      "pow"
-     ]
-    },
-    "autoconfig": {
-     "index": 2,
-     "type": "measure"
-    },
-    "data": "data",
-    "domainMax": null,
-    "domainMin": null,
-    "extent": [
-     0,
-     0.85
-    ],
-    "fixBaseline": 0,
-    "scaleType": "linear",
-    "syncModels": [],
-    "use": "indicator",
-    "which": "ae_cap_arts",
-    "zoomedMax": null,
-    "zoomedMin": null
-   },
-   "size_label": {
-    "_important": false,
-    "allow": {
-     "names": [
-      "_default"
-     ],
-     "scales": [
-      "ordinal",
-      "linear",
-      "log",
-      "genericLog",
-      "pow"
-     ]
-    },
-    "data": "data",
-    "domainMax": null,
-    "domainMin": null,
-    "extent": [
-     0,
-     0.33
-    ],
-    "fixBaseline": 0,
-    "scaleType": "ordinal",
-    "syncModels": [],
-    "use": "constant",
-    "which": "_default",
-    "zoomedMax": null,
-    "zoomedMin": null
-   },
    "space": [
     "entities",
     "time"
@@ -243,7 +154,7 @@ var CONFIG = {
    "delayThresholdX4": 45,
    "dim": "year",
    "end": "2022",
-   "endBeforeForecast": "2023",
+   "endBeforeForecast": "2024",
    "endOrigin": null,
    "endSelected": "2022",
    "format": {
@@ -268,43 +179,17 @@ var CONFIG = {
   }
  },
  "ui": {
-  "adaptMinMaxZoom": false,
   "buttons": [
    "colors",
    "find",
-   "zoom",
-   "trails",
-   "lock",
    "moreoptions",
    "presentation",
    "sidebarcollapse",
    "fullscreen"
   ],
   "chart": {
-   "decorations": {
-    "enabled": true,
-    "xAxisGroups": null
-   },
-   "labels": {
-    "dragging": true,
-    "removeLabelBox": false
-   },
-   "lockNonSelected": 0,
-   "margin": {
-    "left": 89.442,
-    "top": 0
-   },
-   "showForecastOverlay": false,
-   "superhighlightOnMinimapHover": true,
-   "trails": true,
-   "whenHovering": {
-    "higlightValueX": true,
-    "higlightValueY": true,
-    "showProjectionLineX": true,
-    "showProjectionLineY": true
-   }
+   "showForecastOverlay": false
   },
-  "cursorMode": "arrow",
   "datawarning": {
    "doubtDomain": [],
    "doubtRange": []
@@ -318,35 +203,26 @@ var CONFIG = {
    "moreoptions": [
     "opacity",
     "speed",
-    "axes",
-    "size",
     "colors",
-    "label",
-    "zoom",
     "presentation",
     "technical",
     "about"
    ],
    "popup": [
+    "timedisplay",
     "colors",
     "find",
-    "size",
-    "zoom",
     "moreoptions"
    ],
    "sidebar": [
+    "timedisplay",
     "colors",
-    "find",
-    "size",
-    "zoom"
+    "find"
    ]
   },
-  "panWithArrow": false,
   "presentation": false,
-  "show_ticks": true,
   "sidebarCollapse": false,
-  "splash": false,
-  "zoomOnScrolling": true
+  "splash": false
  },
- "chartType": "BubbleChart"
+ "chartType": "BarRankChart"
 };
