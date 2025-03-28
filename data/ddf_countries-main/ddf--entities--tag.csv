@@ -1,6 +1,6 @@
 ﻿tag,name,parent
 handel,Handel,
-utslapp,Utsläpp,miljo_sek
+utslapp,Utsläpp,
 ekonomi,Ekonomi,
 miljo_sek,Miljösektorn,
 transp,Transportsektorn,
