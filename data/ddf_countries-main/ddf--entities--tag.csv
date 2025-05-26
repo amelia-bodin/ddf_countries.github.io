@@ -6,3 +6,13 @@ miljo_sek,Miljösektorn,
 transp,Transportsektorn,
 styrm,Ekonomiska styrmedel,
 invest,Investering,
+ant_foretag,Antal Företag,ekonomi
+miljo_foradl, Förädlingsvärde,miljo_sek
+miljo_prod, Produktionsvärde,miljo_sek
+miljo_syssels, Sysselsatta,miljo_sek
+transp_foradl, Förädlingsvärde,transp
+transp_prod, Produktionsvärde,transp
+transp_syssels, Sysselsatta,transp
+transp_utslapp,Växthusgaser per capita,transp
+utsl_capita,Växthusgasutsläpp per capita,utslapp
+utsl_tusen,Växthusgasutsläpp (Tusen ton),utslapp

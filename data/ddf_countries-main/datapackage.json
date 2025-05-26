@@ -2375,7 +2375,13 @@
             "name": "concept_type"
           },
           {
+            "name": "name_short"
+          },
+          {
             "name": "name"
+          },
+          {
+            "name": "name_catalog"
           },
           {
             "name": "description"
@@ -4762,6 +4768,24 @@
           "concept"
         ],
         "value": "name",
+        "resources": [
+          "ddf--concepts-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "name_catalog",
+        "resources": [
+          "ddf--concepts-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "name_short",
         "resources": [
           "ddf--concepts-2"
         ]
