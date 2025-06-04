@@ -16,3 +16,10 @@ transp_syssels, Sysselsatta,transp
 transp_utslapp,Växthusgaser per capita,transp
 utsl_capita,Växthusgasutsläpp per capita,utslapp
 utsl_tusen,Växthusgasutsläpp (Tusen ton),utslapp
+foretag_fou,Företagens egna FOU,invest
+foradl,Förädlningsvärde,ekonomi
+lopande,Löpande priser,foradl
+valuta_euro,Euro,lopande
+valuta_dollar,Dollar,lopande
+fasta,Fasta priser,foradl
+loner,Löner och sociala avgifter,ekonomi

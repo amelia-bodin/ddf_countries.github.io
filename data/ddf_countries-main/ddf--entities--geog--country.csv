@@ -279,6 +279,8 @@ zmb,TRUE,Zambia
 zwe,TRUE,Zimbabwe
 row_asia,TRUE,RoW Asia-Pacific Region
 row_africa,TRUE,RoW Africa
-row_europe,TRUE,RoW Europé
+row_europe,TRUE,RoW Europe
 row_america,TRUE,RoW America
 row_me,TRUE,RoW Middle East
+non_oecd,TRUE,Non-OECD economies
+oecd_twosix,TRUE,OECD26
