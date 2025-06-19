@@ -8556,6 +8556,48 @@
       }
     },
     {
+      "path": "ddf--entities--geog--briics_mem.csv",
+      "name": "geog--briics_mem-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "briics_mem"
+          },
+          {
+            "name": "is--briics_mem"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "rank"
+          }
+        ],
+        "primaryKey": "briics_mem"
+      }
+    },
+    {
+      "path": "ddf--entities--geog--continent.csv",
+      "name": "geog--continent-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "continent"
+          },
+          {
+            "name": "is--continent"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "rank"
+          }
+        ],
+        "primaryKey": "continent"
+      }
+    },
+    {
       "path": "ddf--entities--geog--country.csv",
       "name": "geog--country-2",
       "schema": {
@@ -8568,9 +8610,135 @@
           },
           {
             "name": "name"
+          },
+          {
+            "name": "continent"
+          },
+          {
+            "name": "eu_mem"
+          },
+          {
+            "name": "briics_mem"
+          },
+          {
+            "name": "nato"
+          },
+          {
+            "name": "oecd_mem"
+          },
+          {
+            "name": "g7"
+          },
+          {
+            "name": "sweden"
           }
         ],
         "primaryKey": "country"
+      }
+    },
+    {
+      "path": "ddf--entities--geog--eu_mem.csv",
+      "name": "geog--eu_mem-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "eu_mem"
+          },
+          {
+            "name": "is--eu_mem"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "rank"
+          }
+        ],
+        "primaryKey": "eu_mem"
+      }
+    },
+    {
+      "path": "ddf--entities--geog--g7.csv",
+      "name": "geog--g7-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "g7"
+          },
+          {
+            "name": "is--g7"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "rank"
+          }
+        ],
+        "primaryKey": "g7"
+      }
+    },
+    {
+      "path": "ddf--entities--geog--nato.csv",
+      "name": "geog--nato-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "nato"
+          },
+          {
+            "name": "is--nato"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "rank"
+          }
+        ],
+        "primaryKey": "nato"
+      }
+    },
+    {
+      "path": "ddf--entities--geog--oecd_mem.csv",
+      "name": "geog--oecd_mem-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "oecd_mem"
+          },
+          {
+            "name": "is--oecd_mem"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "rank"
+          }
+        ],
+        "primaryKey": "oecd_mem"
+      }
+    },
+    {
+      "path": "ddf--entities--geog--sweden.csv",
+      "name": "geog--sweden-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sweden"
+          },
+          {
+            "name": "is--sweden"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "rank"
+          }
+        ],
+        "primaryKey": "sweden"
       }
     },
     {
@@ -16698,6 +16866,96 @@
     "entities": [
       {
         "primaryKey": [
+          "briics_mem"
+        ],
+        "value": "is--briics_mem",
+        "resources": [
+          "geog--briics_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "briics_mem"
+        ],
+        "value": "name",
+        "resources": [
+          "geog--briics_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "briics_mem"
+        ],
+        "value": "rank",
+        "resources": [
+          "geog--briics_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "continent"
+        ],
+        "value": "is--continent",
+        "resources": [
+          "geog--continent-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "continent"
+        ],
+        "value": "name",
+        "resources": [
+          "geog--continent-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "continent"
+        ],
+        "value": "rank",
+        "resources": [
+          "geog--continent-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "briics_mem",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "continent",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "eu_mem",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "g7",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
           "country"
         ],
         "value": "is--country",
@@ -16716,6 +16974,141 @@
       },
       {
         "primaryKey": [
+          "country"
+        ],
+        "value": "nato",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "oecd_mem",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country"
+        ],
+        "value": "sweden",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "eu_mem"
+        ],
+        "value": "is--eu_mem",
+        "resources": [
+          "geog--eu_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "eu_mem"
+        ],
+        "value": "name",
+        "resources": [
+          "geog--eu_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "eu_mem"
+        ],
+        "value": "rank",
+        "resources": [
+          "geog--eu_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "g7"
+        ],
+        "value": "is--g7",
+        "resources": [
+          "geog--g7-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "g7"
+        ],
+        "value": "name",
+        "resources": [
+          "geog--g7-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "g7"
+        ],
+        "value": "rank",
+        "resources": [
+          "geog--g7-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "briics_mem",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "continent",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "eu_mem",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "g7",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "is--briics_mem",
+        "resources": [
+          "geog--briics_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "is--continent",
+        "resources": [
+          "geog--continent-2"
+        ]
+      },
+      {
+        "primaryKey": [
           "geog"
         ],
         "value": "is--country",
@@ -16727,9 +17120,184 @@
         "primaryKey": [
           "geog"
         ],
+        "value": "is--eu_mem",
+        "resources": [
+          "geog--eu_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "is--g7",
+        "resources": [
+          "geog--g7-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "is--nato",
+        "resources": [
+          "geog--nato-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "is--oecd_mem",
+        "resources": [
+          "geog--oecd_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "is--sweden",
+        "resources": [
+          "geog--sweden-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
         "value": "name",
         "resources": [
+          "geog--briics_mem-2",
+          "geog--continent-2",
+          "geog--country-2",
+          "geog--eu_mem-2",
+          "geog--g7-2",
+          "geog--nato-2",
+          "geog--oecd_mem-2",
+          "geog--sweden-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "nato",
+        "resources": [
           "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "oecd_mem",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "rank",
+        "resources": [
+          "geog--briics_mem-2",
+          "geog--continent-2",
+          "geog--eu_mem-2",
+          "geog--g7-2",
+          "geog--nato-2",
+          "geog--oecd_mem-2",
+          "geog--sweden-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog"
+        ],
+        "value": "sweden",
+        "resources": [
+          "geog--country-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "nato"
+        ],
+        "value": "is--nato",
+        "resources": [
+          "geog--nato-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "nato"
+        ],
+        "value": "name",
+        "resources": [
+          "geog--nato-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "nato"
+        ],
+        "value": "rank",
+        "resources": [
+          "geog--nato-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "oecd_mem"
+        ],
+        "value": "is--oecd_mem",
+        "resources": [
+          "geog--oecd_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "oecd_mem"
+        ],
+        "value": "name",
+        "resources": [
+          "geog--oecd_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "oecd_mem"
+        ],
+        "value": "rank",
+        "resources": [
+          "geog--oecd_mem-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sweden"
+        ],
+        "value": "is--sweden",
+        "resources": [
+          "geog--sweden-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sweden"
+        ],
+        "value": "name",
+        "resources": [
+          "geog--sweden-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sweden"
+        ],
+        "value": "rank",
+        "resources": [
+          "geog--sweden-2"
         ]
       },
       {

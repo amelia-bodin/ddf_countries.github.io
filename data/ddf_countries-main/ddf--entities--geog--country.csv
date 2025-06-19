@@ -1,286 +1,286 @@
-﻿country,is--country,name
-afg,TRUE,Afghanistan
-alb,TRUE,Albania
-dza,TRUE,Algeria
-asm,TRUE,American Samoa
-and,TRUE,Andorra
-ago,TRUE,Angola
-aia,TRUE,Anguilla
-ata,TRUE,Antarctica
-atg,TRUE,Antigua and Barbuda
-arg,TRUE,Argentina
-arm,TRUE,Armenia
-abw,TRUE,Aruba
-aus,TRUE,Australia
-aus_oc,TRUE,Australian Oceania
-aut,TRUE,Austria
-aze,TRUE,Azerbaijan
-bhs,TRUE,Bahamas
-bhr,TRUE,Bahrain
-bgd,TRUE,Bangladesh
-brb,TRUE,Barbados
-blr,TRUE,Belarus
-bel,TRUE,Belgium
-bel_lux,TRUE,Belgium and Luxembourg
-blz,TRUE,Belize
-ben,TRUE,Benin
-bmu,TRUE,Bermuda
-btn,TRUE,Bhutan
-bol,TRUE,Bolivia
-bes,TRUE,Bonaire Sint Eustatius and Saba
-bih,TRUE,Bosnia and Herzegovina
-bwa,TRUE,Botswana
-bouisl,TRUE,Bouvet Island
-bra,TRUE,Brazil
-briics,TRUE,BRIICS economies - Brazil: Russia: India: Indonesia: China and South Africa
-iot,TRUE,British Indian Ocean Territory
-vgb,TRUE,British Virgin Islands
-brn,TRUE,Brunei
-bgr,TRUE,Bulgaria
-bunk_main,TRUE,Bunkering and maintenance
-bunk_third,TRUE,Bunkering and maintenance in trade with third country
-bunk_eu,TRUE,Bunkering and maintenance in trade within the EU
-bfa,TRUE,Burkina Faso
-bdi,TRUE,Burundi
-cpv,TRUE,Cabo Verde
-khm,TRUE,Cambodia
-cmr,TRUE,Cameroon
-can,TRUE,Canada
-cay,TRUE,Canary Islands
-cym,TRUE,Cayman Islands
-caf,TRUE,Central African Republic
-ceu,TRUE,Ceuta
-tcd,TRUE,Chad
-chl,TRUE,Chile
-chn,TRUE,China (People's Republic of)
-cxr,TRUE,Christmas Island
-coc,TRUE,Cocos Islands
-col,TRUE,Colombia
-com,TRUE,Comoros
-cog,TRUE,Congo
-ckk,TRUE,Cook Islands
-cri,TRUE,Costa Rica
-civ,TRUE,Côte d'Ivoire
-def_unspec,TRUE,Countries and territories not specified for trade or defence reasons
-third_unspec,TRUE,Countries and territories not specified for trade or defence reasons in trade with third country
-eu_unspec,TRUE,Countries and territories not specified for trade or defence reasons in trade within the EU
-hrv,TRUE,Croatia
-cub,TRUE,Cuba
-nld_curacao,TRUE,Curaçao
-cyp,TRUE,Cyprus
-cze,TRUE,Czechia
-cod,TRUE,Democratic Republic of the Congo
-dnk,TRUE,Denmark
-dji,TRUE,Djibouti
-dma,TRUE,Dominica
-dom,TRUE,Dominican Republic
-tls,TRUE,East Timor
-ecu,TRUE,Ecuador
-egy,TRUE,Egypt
-slv,TRUE,El Salvador
-gnq,TRUE,Equatorial Guinea
-eri,TRUE,Eritrea
-est,TRUE,Estonia
-swz,TRUE,Eswatini
-eth,TRUE,Ethiopia
-eu,TRUE,EU27
-euro,TRUE,Euro area (19 countries)
-eu_two,TRUE,European Union – 27 countries (from 01/02/2020)
-eu_three,TRUE,European Union - 27 countries (from 2020)
-eu_one,TRUE,European Union (28 countries)
-flk,TRUE,Falkland Islands
-fro,TRUE,Faroe Islands
-fji,TRUE,Fiji
-fin,TRUE,Finland
-fra,TRUE,France
-guf,TRUE,French Guiana
-pyf,TRUE,French Polynesia
-fra_antarc,TRUE,French Southern and Antarctic Lands
-g_seven,TRUE,G7
-gab,TRUE,Gabon
-gmb,TRUE,Gambia
-geo,TRUE,Georgia
-deu,TRUE,Germany
-gha,TRUE,Ghana
-gib,TRUE,Gibraltar
-grc,TRUE,Greece
-grl,TRUE,Greenland
-grd,TRUE,Grenada
-glp,TRUE,Guadeloupe
-gum,TRUE,Guam
-gtm,TRUE,Guatemala
-gin,TRUE,Guinea
-gnb,TRUE,Guinea-Bissau
-guy,TRUE,Guyana
-hti,TRUE,Haiti
-heard_a_mcd,TRUE,Heard and McDonald Islands
-hnd,TRUE,Honduras
-hkg,TRUE,Hongkong
-hun,TRUE,Hungary
-isl,TRUE,Iceland
-ind,TRUE,India
-idn,TRUE,Indonesia
-irn,TRUE,Iran
-irq,TRUE,Iraq
-irl,TRUE,Ireland
-isr,TRUE,Israel
-ita,TRUE,Italy
-jam,TRUE,Jamaica
-jpn,TRUE,Japan
-jor,TRUE,Jordan
-kaz,TRUE,Kazakhstan
-ken,TRUE,Kenya
-kir,TRUE,Kiribati
-korea,TRUE,Korea
-kos,TRUE,Kosovo
-kwt,TRUE,Kuwait
-kgz,TRUE,Kyrgyzstan
-lao,TRUE,Laos
-lva,TRUE,Latvia
-lbn,TRUE,Lebanon
-lso,TRUE,Lesotho
-lbr,TRUE,Liberia
-lby,TRUE,Libya
-lie,TRUE,Liechtenstein
-ltu,TRUE,Lithuania
-lux,TRUE,Luxembourg
-mac,TRUE,Macau
-mdg,TRUE,Madagascar
-mwi,TRUE,Malawi
-mys,TRUE,Malaysia
-mdv,TRUE,Maldives
-mli,TRUE,Mali
-mlt,TRUE,Malta
-mhl,TRUE,Marshall Islands
-mtq,TRUE,Martinique
-mrt,TRUE,Mauritania
-mus,TRUE,Mauritius
-myt,TRUE,Mayotte
-mel,TRUE,Melilla
-mex,TRUE,Mexico
-fsm,TRUE,Micronesia
-mda,TRUE,Moldova
-mco,TRUE,Monaco
-mng,TRUE,Mongolia
-mne,TRUE,Montenegro
-msr,TRUE,Montserrat
-mar,TRUE,Morocco
-moz,TRUE,Mozambique
-mmr,TRUE,Myanmar
-nam,TRUE,Namibia
-nru,TRUE,Nauru
-npl,TRUE,Nepal
-nld,TRUE,Netherlands
-ant,TRUE,Netherlands Antilles
-ncl,TRUE,New Caledonia
-nzl,TRUE,New Zealand
-nzl_oc,TRUE,New Zealand Oceania
-nic,TRUE,Nicaragua
-ner,TRUE,Niger
-nga,TRUE,Nigeria
-niu,TRUE,Niue
-nfk,TRUE,Norfolk Island
-prk,TRUE,North Korea
-mkd,TRUE,North Macedonia
-mnp,TRUE,Northern Mariana Islands
-nor,TRUE,Norway
-oecd_eu,TRUE,OECD - Europe
-oecd_tot,TRUE,OECD - Total
-oecd_am,TRUE,OECD America
-oecd_ac,TRUE,OECD Asia Oceania
-omn,TRUE,Oman
-pak,TRUE,Pakistan
-plw,TRUE,Palau
-pse,TRUE,Palestine
-pan,TRUE,Panama
-png,TRUE,Papua New Guinea
-pry,TRUE,Paraguay
-per,TRUE,Peru
-phl,TRUE,Philippines
-pcn,TRUE,Pitcairn Islands
-pol,TRUE,Poland
-polar,TRUE,Polar Regions
-prt,TRUE,Portugal
-pri,TRUE,Puerto Rico
-qat,TRUE,Qatar
-reu,TRUE,Reunion
-rou,TRUE,Romania
-rus,TRUE,Russia
-rwa,TRUE,Rwanda
-kna,TRUE,Saint Kitts and Nevis
-lca,TRUE,Saint Lucia
-vct,TRUE,Saint Vincent and the Grenadines
-stbar,TRUE,Saint-Barthélemy
-spm,TRUE,Saint-Pierre-et-Miquelon
-wsm,TRUE,Samoa
-smr,TRUE,San Marino
-shn,TRUE,Sankt Helena Ascension and Tristan da Cunha
-stp,TRUE,Sao Tome and Principe
-sau,TRUE,Saudi Arabia
-sen,TRUE,Senegal
-srb,TRUE,Serbia
-scg,TRUE,Serbia and Montenegro
-syc,TRUE,Seychelles
-sle,TRUE,Sierra Leone
-sgp,TRUE,Singapore
-maf,TRUE,Sint-Maarten
-svk,TRUE,Slovakia
-svn,TRUE,Slovenia
-slb,TRUE,Solomon Islands
-som,TRUE,Somalia
-zaf,TRUE,South Africa
-sgero_a_ssandw,TRUE,South Georgia and the South Sandwich Islands
-kor,TRUE,South Korea
-ssd,TRUE,South Sudan
-esp,TRUE,Spain
-lka,TRUE,Sri Lanka
-sdn,TRUE,Sudan
-sur,TRUE,Suriname
-swe,TRUE,Sweden
-che,TRUE,Switzerland
-syr,TRUE,Syrian Arab Republic
-twn,TRUE,Taiwan (province of China)
-tjk,TRUE,Tajikistan
-tza,TRUE,Tanzania
-tha,TRUE,Thailand
-high_seas,TRUE,The High Seas
-tgo,TRUE,Togo
-tkl,TRUE,Tokelau
-ton,TRUE,Tonga
-tto,TRUE,Trinidad and Tobago
-tun,TRUE,Tunisia
-tkm,TRUE,Turkmenistan
-tca,TRUE,Turks and Caicos Islands
-tuv,TRUE,Tuvalu
-tur,TRUE,Türkiye
-uga,TRUE,Uganda
-ukr,TRUE,Ukraine
-are,TRUE,United Arab Emirates
-gbr,TRUE,United Kingdom
-usa,TRUE,United States
-usa_minor_out_isl,TRUE,United States Minor Outlying Islands
-usa_oc,TRUE,United States Oceania
-vir,TRUE,United States Virgin Islands
-unspec,TRUE,Unspecified countries and territories
-unspec_third,TRUE,Unspecified countries and territories in trade with third country
-unspec_eu,TRUE,Unspecified countries and territories in trade within the EU
-ury,TRUE,Uruguay
-uzb,TRUE,Uzbekistan
-vut,TRUE,Vanuatu
-vat,TRUE,Vatican City State
-ven,TRUE,Venezuela
-vnm,TRUE,Viet Nam
-wlf,TRUE,Wallis and Futuna
-wbg,TRUE,West Bank/Gaza Strip
-esh,TRUE,Western Sahara
-world,TRUE,World
-yem,TRUE,Yemen
-zmb,TRUE,Zambia
-zwe,TRUE,Zimbabwe
-row_asia,TRUE,RoW Asia-Pacific Region
-row_africa,TRUE,RoW Africa
-row_europe,TRUE,RoW Europe
-row_america,TRUE,RoW America
-row_me,TRUE,RoW Middle East
-non_oecd,TRUE,Non-OECD economies
-oecd_twosix,TRUE,OECD26
+﻿country,is--country,name,continent,eu_mem,briics_mem,nato,oecd_mem,g7,sweden
+afg,TRUE,Afghanistan,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+alb,TRUE,Albania,europe,not_eu,not_briics,is_nato,not_oecd,not_g7,not_sweden
+dza,TRUE,Algeria,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+asm,TRUE,American Samoa,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+and,TRUE,Andorra,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ago,TRUE,Angola,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+aia,TRUE,Anguilla,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ata,TRUE,Antarctica,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+atg,TRUE,Antigua and Barbuda,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+arg,TRUE,Argentina,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+arm,TRUE,Armenia,euro_asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+abw,TRUE,Aruba,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+aus,TRUE,Australia,oceania,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+aus_oc,TRUE,Australian Oceania,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+aut,TRUE,Austria,europe,is_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+aze,TRUE,Azerbaijan,euro_asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bhs,TRUE,Bahamas,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bhr,TRUE,Bahrain,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bgd,TRUE,Bangladesh,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+brb,TRUE,Barbados,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+blr,TRUE,Belarus,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bel,TRUE,Belgium,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+bel_lux,TRUE,Belgium and Luxembourg,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+blz,TRUE,Belize,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ben,TRUE,Benin,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bmu,TRUE,Bermuda,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+btn,TRUE,Bhutan,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bol,TRUE,Bolivia,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bes,TRUE,Bonaire Sint Eustatius and Saba,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bih,TRUE,Bosnia and Herzegovina,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bwa,TRUE,Botswana,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bouisl,TRUE,Bouvet Island,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bra,TRUE,Brazil,s_america,not_eu,is_briics,not_nato,not_oecd,not_g7,not_sweden
+briics,TRUE,BRIICS economies - Brazil: Russia: India: Indonesia: China and South Africa,other,not_eu,is_briics,not_nato,not_oecd,not_g7,not_sweden
+iot,TRUE,British Indian Ocean Territory,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+vgb,TRUE,British Virgin Islands,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+brn,TRUE,Brunei,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bgr,TRUE,Bulgaria,europe,is_eu,not_briics,is_nato,not_oecd,not_g7,not_sweden
+bunk_main,TRUE,Bunkering and maintenance,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bunk_third,TRUE,Bunkering and maintenance in trade with third country,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bunk_eu,TRUE,Bunkering and maintenance in trade within the EU,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bfa,TRUE,Burkina Faso,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+bdi,TRUE,Burundi,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+cpv,TRUE,Cabo Verde,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+khm,TRUE,Cambodia,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+cmr,TRUE,Cameroon,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+can,TRUE,Canada,n_america,not_eu,not_briics,is_nato,is_oecd,is_g7,not_sweden
+cay,TRUE,Canary Islands,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+cym,TRUE,Cayman Islands,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+caf,TRUE,Central African Republic,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ceu,TRUE,Ceuta,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tcd,TRUE,Chad,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+chl,TRUE,Chile,s_america,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+chn,TRUE,China (People's Republic of),asia,not_eu,is_briics,not_nato,not_oecd,not_g7,not_sweden
+cxr,TRUE,Christmas Island,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+coc,TRUE,Cocos Islands,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+col,TRUE,Colombia,s_america,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+com,TRUE,Comoros,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+cog,TRUE,Congo,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ckk,TRUE,Cook Islands,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+cri,TRUE,Costa Rica,n_america,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+civ,TRUE,Côte d'Ivoire,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+def_unspec,TRUE,Countries and territories not specified for trade or defence reasons,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+third_unspec,TRUE,Countries and territories not specified for trade or defence reasons in trade with third country,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+eu_unspec,TRUE,Countries and territories not specified for trade or defence reasons in trade within the EU,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+hrv,TRUE,Croatia,europe,is_eu,not_briics,is_nato,not_oecd,not_g7,not_sweden
+cub,TRUE,Cuba,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+nld_curacao,TRUE,Curaçao,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+cyp,TRUE,Cyprus,euro_asia,is_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+cze,TRUE,Czechia,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+cod,TRUE,Democratic Republic of the Congo,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+dnk,TRUE,Denmark,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+dji,TRUE,Djibouti,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+dma,TRUE,Dominica,n_america,not_eu,not_briics,is_nato,not_oecd,not_g7,not_sweden
+dom,TRUE,Dominican Republic,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tls,TRUE,East Timor,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ecu,TRUE,Ecuador,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+egy,TRUE,Egypt,africa_asia,not_eu,is_briics,not_nato,not_oecd,not_g7,not_sweden
+slv,TRUE,El Salvador,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+gnq,TRUE,Equatorial Guinea,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+eri,TRUE,Eritrea,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+est,TRUE,Estonia,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+swz,TRUE,Eswatini,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+eth,TRUE,Ethiopia,africa,not_eu,is_briics,not_nato,not_oecd,not_g7,not_sweden
+eu,TRUE,EU27,europe,is_eu,not_briics,not_nato,not_oecd,is_g7,not_sweden
+euro,TRUE,Euro area (19 countries),europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+eu_two,TRUE,European Union – 27 countries (from 01/02/2020),europe,is_eu,not_briics,not_nato,not_oecd,is_g7,not_sweden
+eu_three,TRUE,European Union - 27 countries (from 2020),europe,is_eu,not_briics,not_nato,not_oecd,is_g7,not_sweden
+eu_one,TRUE,European Union (28 countries),europe,is_eu,not_briics,not_nato,not_oecd,is_g7,not_sweden
+flk,TRUE,Falkland Islands,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+fro,TRUE,Faroe Islands,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+fji,TRUE,Fiji,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+fin,TRUE,Finland,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+fra,TRUE,France,europe,is_eu,not_briics,is_nato,is_oecd,is_g7,not_sweden
+guf,TRUE,French Guiana,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+pyf,TRUE,French Polynesia,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+fra_antarc,TRUE,French Southern and Antarctic Lands,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+g_seven,TRUE,G7,other,not_eu,not_briics,not_nato,not_oecd,is_g7,not_sweden
+gab,TRUE,Gabon,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+gmb,TRUE,Gambia,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+geo,TRUE,Georgia,euro_asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+deu,TRUE,Germany,europe,is_eu,not_briics,is_nato,is_oecd,is_g7,not_sweden
+gha,TRUE,Ghana,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+gib,TRUE,Gibraltar,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+grc,TRUE,Greece,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+grl,TRUE,Greenland,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+grd,TRUE,Grenada,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+glp,TRUE,Guadeloupe,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+gum,TRUE,Guam,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+gtm,TRUE,Guatemala,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+gin,TRUE,Guinea,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+gnb,TRUE,Guinea-Bissau,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+guy,TRUE,Guyana,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+hti,TRUE,Haiti,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+heard_a_mcd,TRUE,Heard and McDonald Islands,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+hnd,TRUE,Honduras,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+hkg,TRUE,Hongkong,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+hun,TRUE,Hungary,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+isl,TRUE,Iceland,europe,not_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+ind,TRUE,India,asia,not_eu,is_briics,not_nato,not_oecd,not_g7,not_sweden
+idn,TRUE,Indonesia,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+irn,TRUE,Iran,asia,not_eu,is_briics,not_nato,not_oecd,not_g7,not_sweden
+irq,TRUE,Iraq,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+irl,TRUE,Ireland,europe,is_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+isr,TRUE,Israel,asia,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+ita,TRUE,Italy,europe,is_eu,not_briics,is_nato,is_oecd,is_g7,not_sweden
+jam,TRUE,Jamaica,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+jpn,TRUE,Japan,asia,not_eu,not_briics,not_nato,is_oecd,is_g7,not_sweden
+jor,TRUE,Jordan,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+kaz,TRUE,Kazakhstan,euro_asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ken,TRUE,Kenya,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+kir,TRUE,Kiribati,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+korea,TRUE,Korea,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+kos,TRUE,Kosovo,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+kwt,TRUE,Kuwait,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+kgz,TRUE,Kyrgyzstan,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+lao,TRUE,Laos,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+lva,TRUE,Latvia,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+lbn,TRUE,Lebanon,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+lso,TRUE,Lesotho,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+lbr,TRUE,Liberia,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+lby,TRUE,Libya,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+lie,TRUE,Liechtenstein,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ltu,TRUE,Lithuania,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+lux,TRUE,Luxembourg,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+mac,TRUE,Macau,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mdg,TRUE,Madagascar,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mwi,TRUE,Malawi,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mys,TRUE,Malaysia,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mdv,TRUE,Maldives,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mli,TRUE,Mali,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mlt,TRUE,Malta,europe,is_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mhl,TRUE,Marshall Islands,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mtq,TRUE,Martinique,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mrt,TRUE,Mauritania,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mus,TRUE,Mauritius,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+myt,TRUE,Mayotte,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mel,TRUE,Melilla,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mex,TRUE,Mexico,n_america,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+fsm,TRUE,Micronesia,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mda,TRUE,Moldova,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mco,TRUE,Monaco,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mng,TRUE,Mongolia,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mne,TRUE,Montenegro,europe,not_eu,not_briics,is_nato,not_oecd,not_g7,not_sweden
+msr,TRUE,Montserrat,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mar,TRUE,Morocco,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+moz,TRUE,Mozambique,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mmr,TRUE,Myanmar,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+nam,TRUE,Namibia,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+nru,TRUE,Nauru,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+npl,TRUE,Nepal,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+nld,TRUE,Netherlands,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+ant,TRUE,Netherlands Antilles,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ncl,TRUE,New Caledonia,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+nzl,TRUE,New Zealand,oceania,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+nzl_oc,TRUE,New Zealand Oceania,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+nic,TRUE,Nicaragua,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ner,TRUE,Niger,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+nga,TRUE,Nigeria,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+niu,TRUE,Niue,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+nfk,TRUE,Norfolk Island,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+prk,TRUE,North Korea,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+mkd,TRUE,North Macedonia,europe,not_eu,not_briics,is_nato,not_oecd,not_g7,not_sweden
+mnp,TRUE,Northern Mariana Islands,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+nor,TRUE,Norway,europe,not_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+oecd_eu,TRUE,OECD - Europe,europe,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+oecd_tot,TRUE,OECD - Total,other,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+oecd_am,TRUE,OECD America,n_and_s_america,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+oecd_ac,TRUE,OECD Asia Oceania,asia_ocea,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+omn,TRUE,Oman,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+pak,TRUE,Pakistan,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+plw,TRUE,Palau,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+pse,TRUE,Palestine,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+pan,TRUE,Panama,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+png,TRUE,Papua New Guinea,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+pry,TRUE,Paraguay,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+per,TRUE,Peru,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+phl,TRUE,Philippines,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+pcn,TRUE,Pitcairn Islands,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+pol,TRUE,Poland,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+polar,TRUE,Polar Regions,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+prt,TRUE,Portugal,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+pri,TRUE,Puerto Rico,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+qat,TRUE,Qatar,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+reu,TRUE,Reunion,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+rou,TRUE,Romania,europe,is_eu,not_briics,is_nato,not_oecd,not_g7,not_sweden
+rus,TRUE,Russia,euro_asia,not_eu,is_briics,not_nato,not_oecd,not_g7,not_sweden
+rwa,TRUE,Rwanda,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+kna,TRUE,Saint Kitts and Nevis,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+lca,TRUE,Saint Lucia,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+vct,TRUE,Saint Vincent and the Grenadines,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+stbar,TRUE,Saint-Barthélemy,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+spm,TRUE,Saint-Pierre-et-Miquelon,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+wsm,TRUE,Samoa,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+smr,TRUE,San Marino,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+shn,TRUE,Sankt Helena Ascension and Tristan da Cunha,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+stp,TRUE,Sao Tome and Principe,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+sau,TRUE,Saudi Arabia,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+sen,TRUE,Senegal,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+srb,TRUE,Serbia,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+scg,TRUE,Serbia and Montenegro,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+syc,TRUE,Seychelles,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+sle,TRUE,Sierra Leone,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+sgp,TRUE,Singapore,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+maf,TRUE,Sint-Maarten,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+svk,TRUE,Slovakia,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+svn,TRUE,Slovenia,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+slb,TRUE,Solomon Islands,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+som,TRUE,Somalia,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+zaf,TRUE,South Africa,africa,not_eu,is_briics,not_nato,not_oecd,not_g7,not_sweden
+sgero_a_ssandw,TRUE,South Georgia and the South Sandwich Islands,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+kor,TRUE,South Korea,asia,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+ssd,TRUE,South Sudan,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+esp,TRUE,Spain,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+lka,TRUE,Sri Lanka,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+sdn,TRUE,Sudan,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+sur,TRUE,Suriname,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+swe,TRUE,Sweden,europe,is_eu,not_briics,is_nato,is_oecd,not_g7,is_sweden
+che,TRUE,Switzerland,europe,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden
+syr,TRUE,Syrian Arab Republic,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+twn,TRUE,Taiwan (province of China),asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tjk,TRUE,Tajikistan,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tza,TRUE,Tanzania,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tha,TRUE,Thailand,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+high_seas,TRUE,The High Seas,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tgo,TRUE,Togo,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tkl,TRUE,Tokelau,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ton,TRUE,Tonga,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tto,TRUE,Trinidad and Tobago,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tun,TRUE,Tunisia,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tkm,TRUE,Turkmenistan,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tca,TRUE,Turks and Caicos Islands,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tuv,TRUE,Tuvalu,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+tur,TRUE,Türkiye,euro_asia,not_eu,not_briics,is_nato,is_oecd,not_g7,not_sweden
+uga,TRUE,Uganda,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ukr,TRUE,Ukraine,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+are,TRUE,United Arab Emirates,asia,not_eu,is_briics,not_nato,not_oecd,not_g7,not_sweden
+gbr,TRUE,United Kingdom,europe,not_eu,not_briics,is_nato,is_oecd,is_g7,not_sweden
+usa,TRUE,United States,n_america,not_eu,not_briics,is_nato,is_oecd,is_g7,not_sweden
+usa_minor_out_isl,TRUE,United States Minor Outlying Islands,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+usa_oc,TRUE,United States Oceania,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+vir,TRUE,United States Virgin Islands,n_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+unspec,TRUE,Unspecified countries and territories,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+unspec_third,TRUE,Unspecified countries and territories in trade with third country,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+unspec_eu,TRUE,Unspecified countries and territories in trade within the EU,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ury,TRUE,Uruguay,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+uzb,TRUE,Uzbekistan,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+vut,TRUE,Vanuatu,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+vat,TRUE,Vatican City State,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+ven,TRUE,Venezuela,s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+vnm,TRUE,Viet Nam,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+wlf,TRUE,Wallis and Futuna,oceania,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+wbg,TRUE,West Bank/Gaza Strip,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+esh,TRUE,Western Sahara,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+world,TRUE,World,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+yem,TRUE,Yemen,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+zmb,TRUE,Zambia,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+zwe,TRUE,Zimbabwe,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+row_asia,TRUE,RoW Asia-Pacific Region,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+row_africa,TRUE,RoW Africa,africa,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+row_europe,TRUE,RoW Europé,europe,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+row_america,TRUE,RoW America,n_and_s_america,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+row_me,TRUE,RoW Middle East,asia,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+non_oecd,TRUE,Non-OECD economies,other,not_eu,not_briics,not_nato,not_oecd,not_g7,not_sweden
+oecd_twosix,TRUE,OECD26,other,not_eu,not_briics,not_nato,is_oecd,not_g7,not_sweden

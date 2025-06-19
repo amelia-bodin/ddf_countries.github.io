@@ -1,0 +1,12 @@
+﻿continent,is--continent,name,rank
+asia,TRUE,Asia,1
+africa,TRUE,Africa,2
+europe,TRUE,Europe,3
+oceania,TRUE,Oceania,4
+n_america,TRUE,North America,5
+s_america,TRUE,South America,6
+africa_asia,TRUE,Africa & Asia,7
+euro_asia,TRUE,Asia & Europe,8
+asia_ocea,TRUE,Asia & Oceania,9
+n_and_s_america,TRUE,North & South America,10
+other,TRUE,Other,11

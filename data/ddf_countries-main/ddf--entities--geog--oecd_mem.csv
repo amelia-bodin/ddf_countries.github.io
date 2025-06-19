@@ -1,0 +1,3 @@
+﻿oecd_mem,is--oecd_mem,name,rank
+is_oecd,TRUE,OECD,1
+not_oecd,TRUE,Not OECD,2
