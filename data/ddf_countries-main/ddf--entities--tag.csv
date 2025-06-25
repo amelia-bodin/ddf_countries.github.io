@@ -17,7 +17,7 @@ transp_utslapp,Växthusgaser per capita,transp
 utsl_capita,Växthusgasutsläpp per capita,utslapp
 utsl_tusen,Växthusgasutsläpp (Tusen ton),utslapp
 foretag_fou,Företagens egna FOU,invest
-foradl,Förädlningsvärde,ekonomi
+foradl,Förädlingsvärde,ekonomi
 lopande,Löpande priser,foradl
 valuta_euro,Euro,lopande
 valuta_dollar,Dollar,lopande
