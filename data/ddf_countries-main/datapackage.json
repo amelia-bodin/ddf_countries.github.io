@@ -6039,27 +6039,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--fte_total--by--country--year.csv",
-      "name": "fte_total--by--country--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "country"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "fte_total"
-          }
-        ],
-        "primaryKey": [
-          "country",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--ggas_cap_air--by--country--year.csv",
       "name": "ggas_cap_air--by--country--year",
       "schema": {
@@ -6135,6 +6114,27 @@
           },
           {
             "name": "imp_total"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--kem_inb--by--country--year.csv",
+      "name": "kem_inb--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kem_inb"
           }
         ],
         "primaryKey": [
@@ -8349,6 +8349,69 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--utslapp_anv--by--country--year.csv",
+      "name": "utslapp_anv--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "utslapp_anv"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--utslapp_kons--by--country--year.csv",
+      "name": "utslapp_kons--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "utslapp_kons"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--utslapp_prod--by--country--year.csv",
+      "name": "utslapp_prod--by--country--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "utslapp_prod"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--val_chain_total--by--country--year.csv",
       "name": "val_chain_total--by--country--year",
       "schema": {
@@ -8517,8 +8580,108 @@
       }
     },
     {
+      "path": "multidimensional/ddf--datapoints--kem_inb--by--country--bransch_id--year.csv",
+      "name": "kem_inb--by--country--bransch_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "bransch_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kem_inb"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "bransch_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "multidimensional/ddf--datapoints--utslapp_anv--by--country--usage_code--year.csv",
+      "name": "utslapp_anv--by--country--usage_code--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "usage_code"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "utslapp_anv"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "usage_code",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "multidimensional/ddf--datapoints--utslapp_kons--by--country--bransch_id--year.csv",
+      "name": "utslapp_kons--by--country--bransch_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "bransch_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "utslapp_kons"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "bransch_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "multidimensional/ddf--datapoints--utslapp_prod--by--country--bransch_id--year.csv",
+      "name": "utslapp_prod--by--country--bransch_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "country"
+          },
+          {
+            "name": "bransch_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "utslapp_prod"
+          }
+        ],
+        "primaryKey": [
+          "country",
+          "bransch_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--concepts.csv",
-      "name": "ddf--concepts-2",
+      "name": "ddf--concepts-3",
       "schema": {
         "fields": [
           {
@@ -8556,8 +8719,23 @@
       }
     },
     {
+      "path": "ddf--entities--geog--bransch_id.csv",
+      "name": "geog--bransch_id-3",
+      "schema": {
+        "fields": [
+          {
+            "name": "bransch_id"
+          },
+          {
+            "name": "name"
+          }
+        ],
+        "primaryKey": "bransch_id"
+      }
+    },
+    {
       "path": "ddf--entities--geog--briics_mem.csv",
-      "name": "geog--briics_mem-2",
+      "name": "geog--briics_mem-3",
       "schema": {
         "fields": [
           {
@@ -8578,7 +8756,7 @@
     },
     {
       "path": "ddf--entities--geog--continent.csv",
-      "name": "geog--continent-2",
+      "name": "geog--continent-3",
       "schema": {
         "fields": [
           {
@@ -8599,7 +8777,7 @@
     },
     {
       "path": "ddf--entities--geog--country.csv",
-      "name": "geog--country-2",
+      "name": "geog--country-3",
       "schema": {
         "fields": [
           {
@@ -8638,7 +8816,7 @@
     },
     {
       "path": "ddf--entities--geog--eu_mem.csv",
-      "name": "geog--eu_mem-2",
+      "name": "geog--eu_mem-3",
       "schema": {
         "fields": [
           {
@@ -8659,7 +8837,7 @@
     },
     {
       "path": "ddf--entities--geog--g7.csv",
-      "name": "geog--g7-2",
+      "name": "geog--g7-3",
       "schema": {
         "fields": [
           {
@@ -8680,7 +8858,7 @@
     },
     {
       "path": "ddf--entities--geog--nato.csv",
-      "name": "geog--nato-2",
+      "name": "geog--nato-3",
       "schema": {
         "fields": [
           {
@@ -8701,7 +8879,7 @@
     },
     {
       "path": "ddf--entities--geog--oecd_mem.csv",
-      "name": "geog--oecd_mem-2",
+      "name": "geog--oecd_mem-3",
       "schema": {
         "fields": [
           {
@@ -8722,7 +8900,7 @@
     },
     {
       "path": "ddf--entities--geog--sweden.csv",
-      "name": "geog--sweden-2",
+      "name": "geog--sweden-3",
       "schema": {
         "fields": [
           {
@@ -8742,8 +8920,23 @@
       }
     },
     {
+      "path": "ddf--entities--geog--usage_code.csv",
+      "name": "geog--usage_code-3",
+      "schema": {
+        "fields": [
+          {
+            "name": "usage_code"
+          },
+          {
+            "name": "name"
+          }
+        ],
+        "primaryKey": "usage_code"
+      }
+    },
+    {
       "path": "ddf--entities--tag.csv",
-      "name": "tag-2",
+      "name": "tag-3",
       "schema": {
         "fields": [
           {
@@ -8762,6 +8955,83 @@
   ],
   "ddfSchema": {
     "datapoints": [
+      {
+        "primaryKey": [
+          "bransch_id",
+          "country",
+          "year"
+        ],
+        "value": "kem_inb",
+        "resources": [
+          "kem_inb--by--country--bransch_id--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "bransch_id",
+          "country",
+          "year"
+        ],
+        "value": "utslapp_kons",
+        "resources": [
+          "utslapp_kons--by--country--bransch_id--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "bransch_id",
+          "country",
+          "year"
+        ],
+        "value": "utslapp_prod",
+        "resources": [
+          "utslapp_prod--by--country--bransch_id--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "bransch_id",
+          "geog",
+          "year"
+        ],
+        "value": "kem_inb",
+        "resources": [
+          "kem_inb--by--country--bransch_id--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "bransch_id",
+          "geog",
+          "year"
+        ],
+        "value": "utslapp_kons",
+        "resources": [
+          "utslapp_kons--by--country--bransch_id--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "bransch_id",
+          "geog",
+          "year"
+        ],
+        "value": "utslapp_prod",
+        "resources": [
+          "utslapp_prod--by--country--bransch_id--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "usage_code",
+          "year"
+        ],
+        "value": "utslapp_anv",
+        "resources": [
+          "utslapp_anv--by--country--usage_code--year-2"
+        ]
+      },
       {
         "primaryKey": [
           "country",
@@ -11637,16 +11907,6 @@
           "country",
           "year"
         ],
-        "value": "fte_total",
-        "resources": [
-          "fte_total--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "country",
-          "year"
-        ],
         "value": "ggas_cap_air",
         "resources": [
           "ggas_cap_air--by--country--year"
@@ -11680,6 +11940,16 @@
         "value": "imp_total",
         "resources": [
           "imp_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "kem_inb",
+        "resources": [
+          "kem_inb--by--country--year"
         ]
       },
       {
@@ -12730,6 +13000,36 @@
         "value": "total_fte_total",
         "resources": [
           "total_fte_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "utslapp_anv",
+        "resources": [
+          "utslapp_anv--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "utslapp_kons",
+        "resources": [
+          "utslapp_kons--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "year"
+        ],
+        "value": "utslapp_prod",
+        "resources": [
+          "utslapp_prod--by--country--year"
         ]
       },
       {
@@ -12815,6 +13115,17 @@
       {
         "primaryKey": [
           "geog",
+          "usage_code",
+          "year"
+        ],
+        "value": "utslapp_anv",
+        "resources": [
+          "utslapp_anv--by--country--usage_code--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
           "year"
         ],
         "value": "ae_cap_admin",
@@ -15687,16 +15998,6 @@
           "geog",
           "year"
         ],
-        "value": "fte_total",
-        "resources": [
-          "fte_total--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "ggas_cap_air",
         "resources": [
           "ggas_cap_air--by--country--year"
@@ -15730,6 +16031,16 @@
         "value": "imp_total",
         "resources": [
           "imp_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "kem_inb",
+        "resources": [
+          "kem_inb--by--country--year"
         ]
       },
       {
@@ -16780,6 +17091,36 @@
         "value": "total_fte_total",
         "resources": [
           "total_fte_total--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "utslapp_anv",
+        "resources": [
+          "utslapp_anv--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "utslapp_kons",
+        "resources": [
+          "utslapp_kons--by--country--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "utslapp_prod",
+        "resources": [
+          "utslapp_prod--by--country--year"
         ]
       },
       {
@@ -16866,11 +17207,20 @@
     "entities": [
       {
         "primaryKey": [
+          "bransch_id"
+        ],
+        "value": "name",
+        "resources": [
+          "geog--bransch_id-3"
+        ]
+      },
+      {
+        "primaryKey": [
           "briics_mem"
         ],
         "value": "is--briics_mem",
         "resources": [
-          "geog--briics_mem-2"
+          "geog--briics_mem-3"
         ]
       },
       {
@@ -16879,7 +17229,7 @@
         ],
         "value": "name",
         "resources": [
-          "geog--briics_mem-2"
+          "geog--briics_mem-3"
         ]
       },
       {
@@ -16888,7 +17238,7 @@
         ],
         "value": "rank",
         "resources": [
-          "geog--briics_mem-2"
+          "geog--briics_mem-3"
         ]
       },
       {
@@ -16897,7 +17247,7 @@
         ],
         "value": "is--continent",
         "resources": [
-          "geog--continent-2"
+          "geog--continent-3"
         ]
       },
       {
@@ -16906,7 +17256,7 @@
         ],
         "value": "name",
         "resources": [
-          "geog--continent-2"
+          "geog--continent-3"
         ]
       },
       {
@@ -16915,7 +17265,7 @@
         ],
         "value": "rank",
         "resources": [
-          "geog--continent-2"
+          "geog--continent-3"
         ]
       },
       {
@@ -16924,7 +17274,7 @@
         ],
         "value": "briics_mem",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -16933,7 +17283,7 @@
         ],
         "value": "continent",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -16942,7 +17292,7 @@
         ],
         "value": "eu_mem",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -16951,7 +17301,7 @@
         ],
         "value": "g7",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -16960,7 +17310,7 @@
         ],
         "value": "is--country",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -16969,7 +17319,7 @@
         ],
         "value": "name",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -16978,7 +17328,7 @@
         ],
         "value": "nato",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -16987,7 +17337,7 @@
         ],
         "value": "oecd_mem",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -16996,7 +17346,7 @@
         ],
         "value": "sweden",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -17005,7 +17355,7 @@
         ],
         "value": "is--eu_mem",
         "resources": [
-          "geog--eu_mem-2"
+          "geog--eu_mem-3"
         ]
       },
       {
@@ -17014,7 +17364,7 @@
         ],
         "value": "name",
         "resources": [
-          "geog--eu_mem-2"
+          "geog--eu_mem-3"
         ]
       },
       {
@@ -17023,7 +17373,7 @@
         ],
         "value": "rank",
         "resources": [
-          "geog--eu_mem-2"
+          "geog--eu_mem-3"
         ]
       },
       {
@@ -17032,7 +17382,7 @@
         ],
         "value": "is--g7",
         "resources": [
-          "geog--g7-2"
+          "geog--g7-3"
         ]
       },
       {
@@ -17041,7 +17391,7 @@
         ],
         "value": "name",
         "resources": [
-          "geog--g7-2"
+          "geog--g7-3"
         ]
       },
       {
@@ -17050,7 +17400,7 @@
         ],
         "value": "rank",
         "resources": [
-          "geog--g7-2"
+          "geog--g7-3"
         ]
       },
       {
@@ -17059,7 +17409,7 @@
         ],
         "value": "briics_mem",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -17068,7 +17418,7 @@
         ],
         "value": "continent",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -17077,7 +17427,7 @@
         ],
         "value": "eu_mem",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -17086,7 +17436,7 @@
         ],
         "value": "g7",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -17095,7 +17445,7 @@
         ],
         "value": "is--briics_mem",
         "resources": [
-          "geog--briics_mem-2"
+          "geog--briics_mem-3"
         ]
       },
       {
@@ -17104,7 +17454,7 @@
         ],
         "value": "is--continent",
         "resources": [
-          "geog--continent-2"
+          "geog--continent-3"
         ]
       },
       {
@@ -17113,7 +17463,7 @@
         ],
         "value": "is--country",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -17122,7 +17472,7 @@
         ],
         "value": "is--eu_mem",
         "resources": [
-          "geog--eu_mem-2"
+          "geog--eu_mem-3"
         ]
       },
       {
@@ -17131,7 +17481,7 @@
         ],
         "value": "is--g7",
         "resources": [
-          "geog--g7-2"
+          "geog--g7-3"
         ]
       },
       {
@@ -17140,7 +17490,7 @@
         ],
         "value": "is--nato",
         "resources": [
-          "geog--nato-2"
+          "geog--nato-3"
         ]
       },
       {
@@ -17149,7 +17499,7 @@
         ],
         "value": "is--oecd_mem",
         "resources": [
-          "geog--oecd_mem-2"
+          "geog--oecd_mem-3"
         ]
       },
       {
@@ -17158,7 +17508,7 @@
         ],
         "value": "is--sweden",
         "resources": [
-          "geog--sweden-2"
+          "geog--sweden-3"
         ]
       },
       {
@@ -17167,14 +17517,14 @@
         ],
         "value": "name",
         "resources": [
-          "geog--briics_mem-2",
-          "geog--continent-2",
-          "geog--country-2",
-          "geog--eu_mem-2",
-          "geog--g7-2",
-          "geog--nato-2",
-          "geog--oecd_mem-2",
-          "geog--sweden-2"
+          "geog--briics_mem-3",
+          "geog--continent-3",
+          "geog--country-3",
+          "geog--eu_mem-3",
+          "geog--g7-3",
+          "geog--nato-3",
+          "geog--oecd_mem-3",
+          "geog--sweden-3"
         ]
       },
       {
@@ -17183,7 +17533,7 @@
         ],
         "value": "nato",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -17192,7 +17542,7 @@
         ],
         "value": "oecd_mem",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -17201,13 +17551,13 @@
         ],
         "value": "rank",
         "resources": [
-          "geog--briics_mem-2",
-          "geog--continent-2",
-          "geog--eu_mem-2",
-          "geog--g7-2",
-          "geog--nato-2",
-          "geog--oecd_mem-2",
-          "geog--sweden-2"
+          "geog--briics_mem-3",
+          "geog--continent-3",
+          "geog--eu_mem-3",
+          "geog--g7-3",
+          "geog--nato-3",
+          "geog--oecd_mem-3",
+          "geog--sweden-3"
         ]
       },
       {
@@ -17216,7 +17566,7 @@
         ],
         "value": "sweden",
         "resources": [
-          "geog--country-2"
+          "geog--country-3"
         ]
       },
       {
@@ -17225,7 +17575,7 @@
         ],
         "value": "is--nato",
         "resources": [
-          "geog--nato-2"
+          "geog--nato-3"
         ]
       },
       {
@@ -17234,7 +17584,7 @@
         ],
         "value": "name",
         "resources": [
-          "geog--nato-2"
+          "geog--nato-3"
         ]
       },
       {
@@ -17243,7 +17593,7 @@
         ],
         "value": "rank",
         "resources": [
-          "geog--nato-2"
+          "geog--nato-3"
         ]
       },
       {
@@ -17252,7 +17602,7 @@
         ],
         "value": "is--oecd_mem",
         "resources": [
-          "geog--oecd_mem-2"
+          "geog--oecd_mem-3"
         ]
       },
       {
@@ -17261,7 +17611,7 @@
         ],
         "value": "name",
         "resources": [
-          "geog--oecd_mem-2"
+          "geog--oecd_mem-3"
         ]
       },
       {
@@ -17270,7 +17620,7 @@
         ],
         "value": "rank",
         "resources": [
-          "geog--oecd_mem-2"
+          "geog--oecd_mem-3"
         ]
       },
       {
@@ -17279,7 +17629,7 @@
         ],
         "value": "is--sweden",
         "resources": [
-          "geog--sweden-2"
+          "geog--sweden-3"
         ]
       },
       {
@@ -17288,7 +17638,7 @@
         ],
         "value": "name",
         "resources": [
-          "geog--sweden-2"
+          "geog--sweden-3"
         ]
       },
       {
@@ -17297,7 +17647,7 @@
         ],
         "value": "rank",
         "resources": [
-          "geog--sweden-2"
+          "geog--sweden-3"
         ]
       },
       {
@@ -17306,7 +17656,7 @@
         ],
         "value": "name",
         "resources": [
-          "tag-2"
+          "tag-3"
         ]
       },
       {
@@ -17315,7 +17665,16 @@
         ],
         "value": "parent",
         "resources": [
-          "tag-2"
+          "tag-3"
+        ]
+      },
+      {
+        "primaryKey": [
+          "usage_code"
+        ],
+        "value": "name",
+        "resources": [
+          "geog--usage_code-3"
         ]
       }
     ],
@@ -17326,7 +17685,7 @@
         ],
         "value": "concept_type",
         "resources": [
-          "ddf--concepts-2"
+          "ddf--concepts-3"
         ]
       },
       {
@@ -17335,7 +17694,7 @@
         ],
         "value": "description",
         "resources": [
-          "ddf--concepts-2"
+          "ddf--concepts-3"
         ]
       },
       {
@@ -17344,7 +17703,7 @@
         ],
         "value": "domain",
         "resources": [
-          "ddf--concepts-2"
+          "ddf--concepts-3"
         ]
       },
       {
@@ -17353,7 +17712,7 @@
         ],
         "value": "indicator_url",
         "resources": [
-          "ddf--concepts-2"
+          "ddf--concepts-3"
         ]
       },
       {
@@ -17362,7 +17721,7 @@
         ],
         "value": "name",
         "resources": [
-          "ddf--concepts-2"
+          "ddf--concepts-3"
         ]
       },
       {
@@ -17371,7 +17730,7 @@
         ],
         "value": "name_catalog",
         "resources": [
-          "ddf--concepts-2"
+          "ddf--concepts-3"
         ]
       },
       {
@@ -17380,7 +17739,7 @@
         ],
         "value": "name_short",
         "resources": [
-          "ddf--concepts-2"
+          "ddf--concepts-3"
         ]
       },
       {
@@ -17389,7 +17748,7 @@
         ],
         "value": "tags",
         "resources": [
-          "ddf--concepts-2"
+          "ddf--concepts-3"
         ]
       },
       {
@@ -17398,7 +17757,7 @@
         ],
         "value": "unit",
         "resources": [
-          "ddf--concepts-2"
+          "ddf--concepts-3"
         ]
       }
     ],
