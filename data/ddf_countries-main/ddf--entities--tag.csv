@@ -1,21 +1,26 @@
-tag,name,parent
-fasta,Fasta priser,foradl
-valuta_euro,Euro,lopande
-loner,Löner och sociala avgifter,ekonomi
+﻿tag,name,parent
+handel,Handel,
+utslapp,Utsläpp,
+ekonomi,Ekonomi,
+miljo_sek,Miljösektorn,
+transp,Transportsektorn,
+styrm,Ekonomiska styrmedel,
+invest,Investering,
+ant_foretag,Antal Företag,ekonomi
+miljo_foradl, Förädlingsvärde,miljo_sek
+miljo_prod, Produktionsvärde,miljo_sek
+miljo_syssels, Sysselsatta,miljo_sek
+transp_foradl, Förädlingsvärde,transp
+transp_prod, Produktionsvärde,transp
+transp_syssels, Sysselsatta,transp
+transp_utslapp,Växthusgaser per capita,transp
 utsl_capita,Växthusgasutsläpp per capita,utslapp
 utsl_tusen,Växthusgasutsläpp (Tusen ton),utslapp
-miljo_prod, Produktionsvärde,miljo_sek
 foretag_fou,Företagens egna FOU,invest
-invest,Investering,
-styrm,Ekonomiska styrmedel,
-ekonomi,Ekonomi,
-handel,Handel,
-produkter,,
-transp_prod, Produktionsvärde,transp
-transp_foradl, Förädlingsvärde,transp
-transp_syssels, Sysselsatta,transp
-ant_foretag,Antal Företag,ekonomi
-transp_utslapp,Växthusgaser per capita,transp
-miljo_syssels, Sysselsatta,miljo_sek
-miljo_foradl, Förädlingsvärde,miljo_sek
-kategori,Kategori,
+foradl,Förädlingsvärde,ekonomi
+lopande,Löpande priser,foradl
+valuta_euro,Euro,lopande
+valuta_dollar,Dollar,lopande
+fasta,Fasta priser,foradl
+loner,Löner och sociala avgifter,ekonomi
+produkter,Produkter,
