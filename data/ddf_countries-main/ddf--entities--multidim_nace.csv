@@ -1,0 +1,101 @@
+multidim_nace,name
+a,Agriculture: forestry and fishing
+b,Mining and quarrying
+b_e,Industry (except construction)
+c,Manufacturing
+d,Electricity: gas: steam and air conditioning supply
+d35,Electricity: gas: steam and air conditioning supply
+e,Water supply: sewerage: waste management and remediation activities
+f,Construction
+g,Wholesale and retail trade: repair of motor vehicles and motorcycles
+g_i,Wholesale and retail trade: transport: accommodation and food service activities
+h,Transportation and storage
+i,Accommodation and food service activities
+j,Information and communication
+k,Financial and insurance activities
+l,Real estate activities
+l68,Real estate activities
+m,Professional: scientific and technical activities
+m_n,Professional: scientific and technical activities: administrative and support service activities
+n,Administrative and support service activities
+o,Public administration and defence: compulsory social security
+o_q,Public administration: defence: education: human health and social work activities
+o84,Public administration and defence: compulsory social security
+p,Education
+p85,Education
+q,Human health and social work activities
+r,Arts: entertainment and recreation
+r_u,Arts: entertainment and recreation: other service activities: activities of household and extra-territorial organizations and bodies
+s,Other service activities
+a01,Crop and animal production: hunting and related service activities
+a02,Forestry and logging
+a03,Fishing and aquaculture
+c10_c12,Manufacture of food products: beverages and tobacco products
+c13_c15,Manufacture of textiles: wearing apparel: leather and related products
+c16,Manufacture of wood and of products of wood and cork: except furniture: manufacture of articles of straw and plaiting materials
+c16_c18,Manufacture of wood: paper: printing and reproduction
+c17,Manufacture of paper and paper products
+c18,Printing and reproduction of recorded media
+c19,Manufacture of coke and refined petroleum products
+c20,Manufacture of chemicals and chemical products
+c21,Manufacture of basic pharmaceutical products and pharmaceutical preparations
+c22,Manufacture of rubber and plastic products
+c22_c23,Manufacture of rubber and plastic products and other non-metallic mineral products
+c23,Manufacture of other non-metallic mineral products
+c24,Manufacture of basic metals
+c24_c25,Manufacture of basic metals and fabricated metal products: except machinery and equipment
+c25,Manufacture of fabricated metal products: except machinery and equipment
+c26,Manufacture of computer: electronic and optical products
+c27,Manufacture of electrical equipment
+c28,Manufacture of machinery and equipment n.e.c.
+c29,Manufacture of motor vehicles: trailers and semi-trailers
+c29_c30,Manufacture of motor vehicles: trailers: semi-trailers and of other transport equipment
+c30,Manufacture of other transport equipment
+c31_c33,Manufacture of furniture: jewellery: musical instruments: toys: repair and installation of machinery and equipment
+c31_c32,Manufacture of furniture: other manufacturing
+c33,Repair and installation of machinery and equipment
+e36,Water collection: treatment and supply
+e37_e39,Sewerage: waste management: remediation activities
+g45,Wholesale and retail trade and repair of motor vehicles and motorcycles
+g46,Wholesale trade: except of motor vehicles and motorcycles
+g47,Retail trade: except of motor vehicles and motorcycles
+h49,Land transport and transport via pipelines
+h50,Water transport
+h51,Air transport
+h52,Warehousing and support activities for transportation
+h53,Postal and courier activities
+j58,Publishing activities
+j58_j60,Publishing: motion picture: video: television programme production: sound recording: programming and broadcasting activities
+j59_j60,Motion picture: video: television programme production: programming and broadcasting activities
+j61,Telecommunications
+j62_j63,Computer programming: consultancy: and information service activities
+k64,Financial service activities: except insurance and pension funding
+k65,Insurance: reinsurance and pension funding: except compulsory social security
+k66,Activities auxiliary to financial services and insurance activities
+l68a,Imputed rents of owner-occupied dwellings
+m69_m71,Legal and accounting activities: activities of head offices: management consultancy activities: architectural and engineering activities: technical testing and analysis
+m69_m70,Legal and accounting activities: activities of head offices: management consultancy activities
+m71,Architectural and engineering activities: technical testing and analysis
+m72,Scientific research and development
+m73,Advertising and market research
+m73_m75,Advertising and market research: other professional: scientific and technical activities: veterinary activities
+m74_m75,Other professional: scientific and technical activities: veterinary activities
+n77,Rental and leasing activities
+n78,Employment activities
+n79,Travel agency: tour operator and other reservation service and related activities
+n80_n82,Security and investigation: service and landscape: office administrative and support activities
+q86,Human health activities
+q87_q88,Residential care activities and social work activities without accommodation
+r90_r92,Creative: arts and entertainment activities: libraries: archives: museums and other cultural activities: gambling and betting activities
+r93,Sports activities and amusement and recreation activities
+s94,Activities of membership organisations
+s95,Repair of computers and personal and household goods
+s96,Other personal service activities
+t,Activities of households as employers: undifferentiated goods- and services-producing activities of households for own use
+u,Activities of extraterritorial organisations and bodies
+u99,Activities of extraterritorial organisations and bodies
+g_u_x_h,Services (except transportation and storage)
+hh_heat,Heating/cooling activities by households
+hh_oth,Other activities by households
+hh_tra,Transport activities by households
+total_hh,All NACE activities plus households
